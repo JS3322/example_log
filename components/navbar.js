@@ -80,8 +80,29 @@ const Navbar = props => {
                                     as={IconButton} 
                                     icon={<HamburgerIcon />} 
                                     variant="outline" 
-                                    aria-label="Options"
-                                    />
+                                    aria-label="Options">    
+                                </MenuButton>
+                                <MenuList>
+                                    <NextLink href="/" passHref>
+                                        <MenuItem as={Link}>
+                                            About
+                                        </MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/works" passHref>
+                                        <MenuItem as={Link}>
+                                            Works
+                                        </MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/posts" passHref>
+                                        <MenuItem as={Link}>
+                                            Posts
+                                        </MenuItem>
+                                    </NextLink>
+
+                                    <MenuItem as={Link} href="https://github.com/JS3322">
+                                            View Source
+                                        </MenuItem>
+                                </MenuList>
                             </Menu>
                         </Box>
                     </Box>
