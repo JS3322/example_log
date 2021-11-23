@@ -102,3 +102,6 @@ node_modules/
 
 # # TernJS port file
 # .tern-port
+
+# Private File
+README_private.md
