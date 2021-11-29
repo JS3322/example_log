@@ -21,7 +21,7 @@ const LinkItem = ({href, path, children}) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'white.900')
     return (
-        <NextLink>
+        <NextLink href={href}>
         <Link 
         p={2}
         bg={active ? 'glassTeal': undefined}
@@ -67,12 +67,12 @@ const Navbar = props => {
                         flexGrow={1}
                         mt={{base:4, nmd:0}}
                     >
-                        <linkItem href="/works" path={path}>
+                        <LinkItem href="/works" path={path}>
                             Works
-                        </linkItem>
-                        <linkItem href="/posts" path={path}>
+                        </LinkItem>
+                        <LinkItem href="/posts" path={path}>
                             Posts
-                        </linkItem>
+                        </LinkItem>
                     </Stack>
                     <Box flex={1} align="right">
                         <ThemeTogglleButton />
