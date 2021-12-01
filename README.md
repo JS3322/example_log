@@ -3,6 +3,11 @@ HomePage
 ```
 
 ---
+### TODO List
+[ ]animate the toggle
+[ ] -
+
+---
 ### Package Architecture
 #### Import Module
 1. @chakra-ui/react : 1.7.2
@@ -15,7 +20,7 @@ HomePage
 
 ---
 ### Log
-20211118 next.js init
+-
 
 ---
 ## Stay in touch
