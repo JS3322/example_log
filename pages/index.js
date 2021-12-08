@@ -3,6 +3,7 @@ import { Button, Container, Box, Heading, Image, Link,useColorModeValue } from "
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
     return (
@@ -16,7 +17,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         JS
                     </Heading>
-                    <p>Skill (Developer / DevOps / Design)</p>
+                    <p>Skill (Develop / Design)</p>
                 </Box>
                 <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md:6}} align="center">
                     <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/poster.png" alt="myImage" />
@@ -40,6 +41,44 @@ const Page = () => {
                         </Button>
                     </NextLink>
                 </Box>
+            </Section>
+
+            <Section delay={0.2}>
+                <Heading as='h3' variant="section-title">
+                    Bio
+                </Heading>
+                <BioSection>
+                    <BioYear>1987</BioYear>
+                    Born in JEJU, KOREA.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2014</BioYear>
+                    Worked at Sangsaeng law firm
+                </BioSection>
+                <BioSection>
+                    <BioYear>2018</BioYear>
+                    Worked at GritIT Company
+                </BioSection>
+                <BioSection>
+                    <BioYear>2021</BioYear>
+                    Worked as a Freelance
+                </BioSection>
+            </Section>
+
+            <Section delay={0.1}>
+                <Heading as='h3' variant="section-title">
+                    hobby
+                </Heading>
+                <Paragraph>
+                    Travel, {' '}
+                    <Link href="https://github.com/JS3322">
+                        Coding
+                    </Link>
+                    , Dance, {' '}
+                    <Link href="https://www.behance.net/js3322">
+                        Design
+                    </Link>
+                </Paragraph>
             </Section>
         </Container>
     )

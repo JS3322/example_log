@@ -3,31 +3,27 @@ HomePage
 ```
 
 ---
-### TODO List
-[ ]animate the toggle
-[ ] -
+- 컴포넌트의 재사용을 늘리는, 본인만의 최적의 UI Package 구성
+- simple을 기반으로 가독과 이해가 중점인 홈페이지 구성
 
 ---
-### Package Architecture
-#### Import Module
+### TODO List | Route
+- [ ] action UI
+- [ ] animate the toggle
+
+---
+### Import Library
 1. @chakra-ui/react : 1.7.2
 2. @emotion/react : 11.6.0
 3. next : 12.0.4
 4. react : 17.0.2
 
-#### Module Name | Module Explanation | Route
-1. - | - | -
-
 ---
-### Log
--
-
----
-## Stay in touch
+### Stay in touch
 - Developer - [JS KIM](https://cleancode.kr)
 
 ---
-## License
+### License
 [MIT licensed](LICENSE)
 
 ---
