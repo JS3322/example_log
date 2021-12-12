@@ -107,3 +107,4 @@ node_modules/
 README_private.md
 .DS_STORE
 .idea
+*.glb

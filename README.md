@@ -11,7 +11,7 @@ HomePage
 - [x] action UI
 - [x] dark theme
 - [x] animate the toggle
-- [ ] use three.js
+- [x] use three.js | components
 
 ---
 ### Import Library
@@ -19,6 +19,8 @@ HomePage
 2. @emotion/react : 11.6.0
 3. next : 12.0.4
 4. react : 17.0.2
+5. three : 0.135.0
+6. framer-motion : 5.3.0
 
 ---
 ### Stay in touch
