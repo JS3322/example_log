@@ -24,6 +24,16 @@ const VoxelDog = () => {
     const [scene] = useState(new THREE.Scene())
     const [_controls, setControls] = useState()
 
+    const handleWindowResize = useCallback(() => {
+      const { current: container } = refContainer
+      if (container && renderer) {
+        const scW = container.clientWidth
+        const scH = container.clientHeight
+  
+        renderer.setSize(scW, scH)
+      }
+    }, [renderer])
+
     /* react-hoots/exhaustive-deps */
     useEffect(() => {
         const { current: container } = refContainer
@@ -92,8 +102,21 @@ const VoxelDog = () => {
               }
               renderer.render(scene, camera)
             }
+
+            return () => {
+              console.log('unmount')
+              cancelAnimationFrame(req)
+              renderer.dispose()
+            }
         }
-    })
+    }, [])
+
+    useEffect(() => {
+      window.addEventListener('resize', handleWindowResize, false)
+      return () => {
+        window.removeEventListener('resize', handleWindowResize, false)
+      }
+    }, [renderer, handleWindowResize])
 
     return (
         <Box ref={refContainer} 
