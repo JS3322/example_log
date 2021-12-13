@@ -12,6 +12,7 @@ HomePage
 - [x] dark theme
 - [x] animate the toggle
 - [x] use three.js | components
+- [x] make less than 3mb glb | public
 
 ---
 ### Import Library
