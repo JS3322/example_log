@@ -108,3 +108,4 @@ README_private.md
 .DS_STORE
 .idea
 /_backup
+*.glb

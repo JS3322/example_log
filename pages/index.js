@@ -10,9 +10,9 @@ const Page = () => {
     return (
         <Layout>
         <Container>
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+            {/* <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Hello, I&apos;m a developer JS
-            </Box>
+            </Box> */}
 
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
