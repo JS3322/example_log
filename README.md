@@ -12,6 +12,7 @@ HomePage
 - [x] dark theme
 - [x] animate the toggle
 - [x] use three.js | components
+- [ ] babylon.js and three.js comparison test
 - [x] make less than 3mb glb | public
 
 ---
