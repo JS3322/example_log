@@ -11,35 +11,36 @@ const LogoBox = styled.span`
   height: 30px;
   line-height: 20px;
   padding: 10px;
-  
+
   img {
     transition: 200ms ease;
   }
+
   &:hover img {
     transform: rotate(20deg);
   }
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const cleancodePrintImg = `/images/cleancodePrintImg${useColorModeValue('', '-dark')}.png`
 
-    return (
-        <Link href="/">
-            <a>
-                <LogoBox>
-                    <Image src={footPrintImg} width={20} height={20} alt="logo"></Image>
-                    <Text 
-                        color={useColorModeValue('gray,800', 'whiteAlpha.900')}
-                        fontFamily="M PLUS Rounded 1c"
-                        fontWeight="bold"
-                        ml={3}
-                    >
-                        JS
-                    </Text>
-                </LogoBox>
-            </a>
-        </Link>
-    )
+  return (
+    <Link href="/">
+      <a>
+        <LogoBox>
+          <Image src={cleancodePrintImg} width={20} height={20} alt="logo" />
+          <Text
+            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            fontFamily='M PLUS Rounded 1c'
+            fontWeight="bold"
+            ml={3}
+          >
+            JS
+          </Text>
+        </LogoBox>
+      </a>
+    </Link>
+  )
 }
 
 export default Logo

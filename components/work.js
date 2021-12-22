@@ -8,21 +8,28 @@ export const Title = ({ children }) => (
       <Link>Works</Link>
     </NextLink>
     <span>
-      &nbsp;
-      <ChevronRightIcon />
-      &nbsp;
+      {' '}
+      <ChevronRightIcon />{' '}
     </span>
     <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
       {children}
     </Heading>
   </Box>
 )
+
 export const WorkImage = ({ src, alt }) => (
-    <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
-  )
-  
+  <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
+)
+
+export const WorkVideo = ({ src, alt }) => (
+  <video controls>
+      <source src={src} alt={alt} type="video/mp4"/>
+      <strong>your browser does not support the video tag</strong>
+  </video>
+)
+
 export const Meta = ({ children }) => (
-    <Badge colorScheme="green" mr={2}>
-      {children}
-    </Badge>
+  <Badge colorScheme="green" mr={2}>
+    {children}
+  </Badge>
 )

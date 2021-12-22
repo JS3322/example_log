@@ -13,7 +13,10 @@ HomePage
 - [x] animate the toggle
 - [x] use three.js | components
 - [ ] babylon.js and three.js comparison test
+- [ ] Connect API Server
+- [ ] web component migration
 - [x] make less than 3mb glb | public
+- [ ] make ico 
 
 ---
 ### Import Library

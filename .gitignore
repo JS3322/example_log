@@ -106,6 +106,8 @@ node_modules/
 # Private File
 README_private.md
 .DS_STORE
+.DS_Store
 .idea
-/_backup
+_temp/
+_backup/
 *.glb

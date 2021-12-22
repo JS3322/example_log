@@ -1,90 +1,95 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, Image, Link,useColorModeValue } from "@chakra-ui/react"
+import { Link, Container, Heading, Box, Image, SimpleGrid, Button, List, ListItem, Icon, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { GridItem } from '../components/grid-item'
+import thumbInstagramCook from '../public/images/links/instagramCook.png'
+import thumbGithubCode from '../public/images/links/githubCode.png'
 
-const Page = () => {
-    return (
-        <Layout>
-        <Container>
-            {/* <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                Hello, I&apos;m a developer JS
-            </Box> */}
+const Home = () => (
+    <Layout>
+      <Container>
+      <Box
+        borderRadius="lg"
+        mb={6}
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      >  
+        PM 업무 이후 IT 개발자로 부족한 면을 많이 느끼고, IT지식, 알고리즘, 디자인의 근본적인 부분부터 공부하고 있습니다!
+      </Box>
 
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
-                        JS
+                    Developer JS
                     </Heading>
-                    <p>Skill (Develop / Design)</p>
+                    
                 </Box>
-                <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md:6}} align="center">
-                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/poster.png" alt="myImage" />
-                </Box>
+                <Box
+                  flexShrink={0}
+                  mt={{ base: 4, md: 0 }}
+                  ml={{ md: 6 }}
+                  textAlign="center"
+                >
+                <NextLink href="https://cleancode.kr/history">
+                <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                  구직 포트폴리오
+                </Button>
+                </NextLink>
             </Box>
-            <Section delay={0.1}>
-                <Heading as="h3" variant="section-title">
-                    Work
-                </Heading>
-                <Paragraph>Paragraph TEST 1 | OOOOOOOOOOOOOOOOOO 
-                    <NextLink href="/works/inkdrop">
-                        <Link>InkDrop
-                        </Link>
-                    </NextLink>
-                    .
-                </Paragraph>
-                <Box align="center" my={4}>
-                    <NextLink href="/works">
-                        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                            My portfolio
-                        </Button>
-                    </NextLink>
-                </Box>
-            </Section>
+      </Box>
 
-            <Section delay={0.2}>
-                <Heading as='h3' variant="section-title">
-                    Bio
-                </Heading>
-                <BioSection>
-                    <BioYear>1987</BioYear>
-                    Born in JEJU, KOREA.
-                </BioSection>
-                <BioSection>
-                    <BioYear>2014</BioYear>
-                    Worked at Sangsaeng law firm
-                </BioSection>
-                <BioSection>
-                    <BioYear>2018</BioYear>
-                    Worked at GritIT Company
-                </BioSection>
-                <BioSection>
-                    <BioYear>2021</BioYear>
-                    Worked as a Freelance
-                </BioSection>
-            </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Career
+        </Heading>
+          <BioSection>
+            <BioYear>2018</BioYear>
+              GritIT 회사 웹개발 업무 담당
+          </BioSection>
+          <BioSection>
+            <BioYear>2021</BioYear>
+              천안에서 거주하면서 공부
+          </BioSection>
+      </Section>
 
-            <Section delay={0.1}>
+            <Section delay={0.4}>
                 <Heading as='h3' variant="section-title">
                     hobby
                 </Heading>
                 <Paragraph>
-                    Travel, {' '}
-                    <Link href="https://github.com/JS3322">
-                        Coding
-                    </Link>
-                    , Dance, {' '}
-                    <Link href="https://www.behance.net/js3322">
-                        Design
-                    </Link>
+                  Coding, Design, Home GarbageCollection, Travel
                 </Paragraph>
             </Section>
+
+            <Section delay={0.6}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <SimpleGrid columns={[1, 4, 5]} gap={6}>
+
+          <GridItem
+            href="https://www.instagram.com/cleancode_js/"
+            title="Cooking Instagram"
+            thumbnail={thumbInstagramCook}
+          >
+          </GridItem>
+          <GridItem
+            href="https://github.com/js3322"
+            title="Develop Github"
+            thumbnail={thumbGithubCode}
+          >
+          </GridItem>
+        </SimpleGrid>
+
+      </Section>
+
         </Container>
         </Layout>
     )
-}
 
-export default Page
+export default Home

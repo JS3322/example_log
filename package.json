@@ -1,27 +1,19 @@
 {
-  "name": "project_homepage",
+  "name": "homepage",
   "version": "1.0.0",
-  "description": "homepage",
+  "description": "js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
+    "start": "next start",
     "prettier": "prettier -write .",
-    "lint": "next lint",
-    "deploy-github-pages": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add -f out/ && git checkout -b temp-for-deploy-gh-pages && git commit -m \"Deploy Next.js to gh-pages\" && git subtree split --prefix out -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages && git checkout main && git branch -D temp-for-deploy-gh-pages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JS3322/project_homepage.git"
+    "lint": "next lint"
   },
   "keywords": [],
-  "author": "JS<js@cleancode.kr>",
+  "author": "js",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JS3322/project_homepage/issues"
-  },
-  "homepage": "https://github.com/JS3322/project_homepage#readme",
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.1",
+
     "@chakra-ui/react": "^1.7.2",
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
@@ -29,7 +21,8 @@
     "next": "^12.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "three": "^0.135.0"
+    "react-icons": "^4.3.1",
+    "three": "^0.134.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
