@@ -17,6 +17,8 @@ HomePage
 - [ ] web component migration
 - [x] make less than 3mb glb | public
 - [ ] make ico 
+- [x] image and source loading check
+- [ ] create a page that updates todolist when mail arrives
 
 ---
 ### Import Library

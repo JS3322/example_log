@@ -20,9 +20,7 @@ const Work = () => (
 
       <WorkVideo src="/video/project_2020_s.mp4" alt="2019_HyundaiMotorsMindTravelBook" />
       <P>
-        A 1Twi1tter client app for iPhone Safari, made in the iPhone 3GS era. I
-        built it for my research work at a graduate school. Got over 2,000
-        users.
+      contents
       </P>
 
       <List ml={4} my={4}>
