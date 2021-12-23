@@ -17,7 +17,7 @@ const Work = () => (
       현대자동차 마음여행책 <Badge>2019</Badge>
       </Title>
 
-      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2019_HyundaiMotorsMindTravelBook" />
+      
 
       
       <UnorderedList my={4}>
@@ -64,6 +64,7 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
+      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2019_HyundaiMotorsMindTravelBook" />
       <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0002.png" alt="2019_HyundaiMotorsMindTravelBook" />
       <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0003.png" alt="2019_HyundaiMotorsMindTravelBook" />
       

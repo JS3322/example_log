@@ -16,7 +16,7 @@ const Work = () => (
       <Title>
         현대자동차 <Badge>2019</Badge>
       </Title>
-      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
+      
       
       <UnorderedList my={4}>
         <ListItem>
@@ -62,6 +62,7 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
+      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
       
       
     </Container>

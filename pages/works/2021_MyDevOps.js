@@ -17,10 +17,10 @@ const Work = () => (
         MyDevOps <Badge>2021</Badge>
       </Title>
 
-      <WorkImage src="/images/works/2021_MyDevOps_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
+      
       <UnorderedList my={4}>
         <ListItem>
-        개발환경 구성 프로젝트로 cloud vscode와 테스트 환경 구성 (여러 OCI 서버를 비롯한 API 테스트 서버와 카카오 오픈 챗)
+        개발환경 구성 프로젝트로 cloud vscode와 테스트 환경 구성 (여러 OCI 서버를 비롯한 API 테스트 서버와 카카오 오픈 챗), Jenkins, vercel 자동화 및 쉘스크립트 사용
         </ListItem>
       </UnorderedList>
       
@@ -62,7 +62,7 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
-      
+      <WorkImage src="/images/works/2021_MyDevOps_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
       
     </Container>
   </Layout>

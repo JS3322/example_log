@@ -17,7 +17,7 @@ const Work = () => (
       비인지 진단 웹서비스 모듈 개발<Badge>2018</Badge>
       </Title>
 
-      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2018_NoncognitiveDiagnosisModule" />
+      
       <UnorderedList my={4}>
         <ListItem>
         데이터 연산 추천서비스 API 개발 및 VR, AR 통합 웹시스템 기획 및 구현과 AWS 마이그레이션 작업
@@ -66,7 +66,7 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
-      
+      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2018_NoncognitiveDiagnosisModule" />
       
     </Container>
   </Layout>

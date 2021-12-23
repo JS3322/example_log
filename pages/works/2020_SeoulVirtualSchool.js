@@ -17,7 +17,7 @@ const Work = () => (
       서울대학교 모바일가상학교 통합관리시스템 <Badge>2020</Badge>
       </Title>
 
-      <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0001.png" alt="2020_SeoulVirtualSchool" />
+      
       
       <UnorderedList my={4}>
         <ListItem>
@@ -67,6 +67,7 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
+      <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0001.png" alt="2020_SeoulVirtualSchool" />
       <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0002.png" alt="2020_SeoulVirtualSchool" />
       <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0003.png" alt="2020_SeoulVirtualSchool" />
       
