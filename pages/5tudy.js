@@ -14,7 +14,7 @@ const S5tudy = () => (
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 3]} gap={6}>
+        <SimpleGrid columns={[1, 3, 3]} gap={6}>
           <GridItem
             title="Issue SoftwareArchitecture"
             thumbnail={issueSoftwareArchitecture}

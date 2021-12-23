@@ -14,13 +14,13 @@ const Work = () => (
   <Layout title="2019 현대자동차 마음여행책">
     <Container>
       <Title>
-        현대자동차 <Badge>2019</Badge>
+        MyDevOps <Badge>2021</Badge>
       </Title>
-      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
-      
+
+      <WorkImage src="/images/works/2021_MyDevOps_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
       <UnorderedList my={4}>
         <ListItem>
-        fultter UI 개발
+        개발환경 구성 프로젝트로 cloud vscode와 테스트 환경 구성 (여러 OCI 서버를 비롯한 API 테스트 서버와 카카오 오픈 챗)
         </ListItem>
       </UnorderedList>
       

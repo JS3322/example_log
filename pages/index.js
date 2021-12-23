@@ -19,7 +19,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >  
-        PM 업무 이후 IT 개발자로 부족한 면을 많이 느끼고, IT지식, 알고리즘, 디자인의 근본적인 부분부터 공부하고 있습니다!
+        PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT지식, 알고리즘, 디자인의 근본적인 부분부터 공부하고 있습니다!
       </Box>
 
             <Box display={{md:'flex'}}>
@@ -42,6 +42,28 @@ const Home = () => (
                 </NextLink>
             </Box>
       </Box>
+
+      <Section delay={0.6}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <SimpleGrid columns={[1, 4, 5]} gap={6}>
+
+          <GridItem
+            href="https://www.instagram.com/cleancode_js/"
+            title="Cooking Instagram"
+            thumbnail={thumbInstagramCook}
+          >
+          </GridItem>
+          <GridItem
+            href="https://github.com/js3322"
+            title="Develop Github"
+            thumbnail={thumbGithubCode}
+          >
+          </GridItem>
+        </SimpleGrid>
+
+      </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
@@ -66,27 +88,7 @@ const Home = () => (
                 </Paragraph>
             </Section>
 
-            <Section delay={0.6}>
-        <Heading as="h3" variant="section-title">
-          On the web
-        </Heading>
-        <SimpleGrid columns={[1, 4, 5]} gap={6}>
-
-          <GridItem
-            href="https://www.instagram.com/cleancode_js/"
-            title="Cooking Instagram"
-            thumbnail={thumbInstagramCook}
-          >
-          </GridItem>
-          <GridItem
-            href="https://github.com/js3322"
-            title="Develop Github"
-            thumbnail={thumbGithubCode}
-          >
-          </GridItem>
-        </SimpleGrid>
-
-      </Section>
+            
 
         </Container>
         </Layout>

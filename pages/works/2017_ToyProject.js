@@ -11,13 +11,13 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkVideo } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2020 서울대학교 모바일가상학교 통합관리시스템">
+  <Layout title="2017 토이프로젝트">
     <Container>
       <Title>
-      서울대학교 모바일가상학교 통합관리시스템 <Badge>2020</Badge>
+      토이프로젝트 <Badge>2017</Badge>
       </Title>
 
-      <WorkVideo src="/video/project_2020_s.mp4" alt="2019_HyundaiMotorsMindTravelBook" />
+      <WorkVideo src="/video/project_2020_s.mp4" alt="2017_ToyProject" />
       <UnorderedList my={4}>
         <ListItem>
         데이터 연산 추천서비스 API 개발 및 VR, AR 통합 웹시스템 기획 및 구현과 AWS 마이그레이션 작업
