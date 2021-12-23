@@ -8,7 +8,7 @@ import {
   Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, Meta, WorkVideo } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
   <Layout title="2017 토이프로젝트">
@@ -17,7 +17,7 @@ const Work = () => (
       토이프로젝트 <Badge>2017</Badge>
       </Title>
 
-      <WorkVideo src="/video/project_2020_s.mp4" alt="2017_ToyProject" />
+      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2017_ToyProject" />
       <UnorderedList my={4}>
         <ListItem>
         데이터 연산 추천서비스 API 개발 및 VR, AR 통합 웹시스템 기획 및 구현과 AWS 마이그레이션 작업

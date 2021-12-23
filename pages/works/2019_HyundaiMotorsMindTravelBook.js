@@ -8,7 +8,7 @@ import {
   Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, Meta, WorkVideo } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
   <Layout title="2019 현대자동차 마음여행책">
@@ -17,7 +17,8 @@ const Work = () => (
       현대자동차 마음여행책 <Badge>2019</Badge>
       </Title>
 
-      <WorkVideo src="/video/project_2019_h.mp4" alt="2019_HyundaiMotorsMindTravelBook" />
+      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2019_HyundaiMotorsMindTravelBook" />
+
       
       <UnorderedList my={4}>
         <ListItem>
@@ -63,6 +64,8 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
+      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0002.png" alt="2019_HyundaiMotorsMindTravelBook" />
+      <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0003.png" alt="2019_HyundaiMotorsMindTravelBook" />
       
       
     </Container>

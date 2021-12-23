@@ -8,7 +8,7 @@ import {
   Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, Meta, WorkVideo } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
   <Layout title="2020 서울대학교 모바일가상학교 통합관리시스템">
@@ -17,7 +17,8 @@ const Work = () => (
       서울대학교 모바일가상학교 통합관리시스템 <Badge>2020</Badge>
       </Title>
 
-      <WorkVideo src="/video/project_2020_s.mp4" alt="2019_HyundaiMotorsMindTravelBook" />
+      <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0001.png" alt="2020_SeoulVirtualSchool" />
+      
       <UnorderedList my={4}>
         <ListItem>
         데이터 연산 추천서비스 API 개발 및 VR, AR 통합 웹시스템 기획 및 구현과 AWS 마이그레이션 작업
@@ -66,7 +67,8 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
-      
+      <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0002.png" alt="2020_SeoulVirtualSchool" />
+      <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0003.png" alt="2020_SeoulVirtualSchool" />
       
     </Container>
   </Layout>
