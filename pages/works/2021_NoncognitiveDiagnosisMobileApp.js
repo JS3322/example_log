@@ -11,16 +11,16 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2019 현대자동차 마음여행책">
+  <Layout title="2021 비인지진단 모바일앱">
     <Container>
       <Title>
-        현대자동차 <Badge>2019</Badge>
+        비인지진단 모바일앱 <Badge>2021</Badge>
       </Title>
       
       
       <UnorderedList my={4}>
         <ListItem>
-        fultter UI 개발
+        fultter UI 
         </ListItem>
       </UnorderedList>
       
@@ -28,11 +28,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>현대자동차</span>
+          <span>flutter2.0 | Url_launcher | Bloc</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>현대자동차</span>
+          <span>SVN | Sqflite | Adobe XD</span>
         </ListItem>
       </List>
 
@@ -62,7 +62,7 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
-      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents.png" alt="2019_HyundaiMotorsMindTravelBook" />
+      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0001.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
       
       
     </Container>

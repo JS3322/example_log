@@ -35,7 +35,7 @@ const Home = () => (
                   ml={{ md: 6 }}
                   textAlign="center"
                 >
-                <NextLink href="https://cleancode.kr/history">
+                <NextLink href="https://cleancode.shop/history">
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                   구직 포트폴리오
                 </Button>
@@ -84,7 +84,7 @@ const Home = () => (
                     hobby
                 </Heading>
                 <Paragraph>
-                  Coding, Design, Home GarbageCollection, Travel
+                  Develop, Design, HomeGarbageCollection, Travel
                 </Paragraph>
             </Section>
 

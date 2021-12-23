@@ -11,7 +11,7 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2019 현대자동차 마음여행책">
+  <Layout title="2021 웹개발환경 구성">
     <Container>
       <Title>
         MyDevOps <Badge>2021</Badge>
@@ -20,7 +20,7 @@ const Work = () => (
       
       <UnorderedList my={4}>
         <ListItem>
-        개발환경 구성 프로젝트로 cloud vscode와 테스트 환경 구성 (여러 OCI 서버를 비롯한 API 테스트 서버와 카카오 오픈 챗), Jenkins, vercel 자동화 및 쉘스크립트 사용
+        개발환경 구성 프로젝트로 cloud vscode와 테스트 환경 구성 (여러 OCI 서버를 비롯한 API 테스트 서버와 카카오 오픈 챗), vercel 자동화 및 쉘스크립트 사용
         </ListItem>
       </UnorderedList>
       
@@ -28,11 +28,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>현대자동차</span>
+          <span>Go1.17 | Shell Script</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>현대자동차</span>
+          <span>Docker | Yona | Github</span>
         </ListItem>
       </List>
 

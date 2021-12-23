@@ -3,6 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumb2017Toy from '../public/images/works/2017_ToyProject_thumb.png'
+import thumb2018Noncognitive from '../public/images/works/2018_NoncognitiveDiagnosisModule_thumb.png'
 import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTravelBook_thumb.png'
 import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_thumb.png'
 // import thumb2021Noncognitive from '../public/images/works/2021_NoncognitiveDiagnosisMobileApp_thumb.png'
@@ -59,6 +61,18 @@ const Works = () => (
         <Section delay={0.8}>
           <WorkGridItem id="2019_HyundaiMotorsMindTravelBook" thumbnail={thumb2019Hyundai} title="현대자동차 마음여행책">
             현대자동차 임직원 비인지 웹진단과 개인 맞춤 책 발간 시스템 개발
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.8}>
+          <WorkGridItem id="2018_NoncognitiveDiagnosisModule" thumbnail={thumb2018Noncognitive} title="비인지진단 웹서비스">
+          진단 웹서비스 홈페이지 운영 및 모듈 개발
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.8}>
+          <WorkGridItem id="2017_ToyProject" thumbnail={thumb2017Toy} title="토이프로젝트">
+            웹 채팅프로그램과 알고리즘, 배포환경과 같은 개발 기본 구성
           </WorkGridItem>
         </Section>
         

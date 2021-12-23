@@ -18,17 +18,17 @@ const S5tudy = () => (
           <GridItem
             title="Issue SoftwareArchitecture"
             thumbnail={issueSoftwareArchitecture}
-            href="https://cleancode.kr/troubleshooting-software-architecture"
+            href="https://cleancode.shop/troubleshooting-software-architecture"
           />
           <GridItem
             title="Issue Management"
             thumbnail={issueManagement}
-            href="https://cleancode.kr/troubleshooting-management"
+            href="https://cleancode.shop/troubleshooting-management"
           />
           <GridItem
             title="Issue Develop"
             thumbnail={issueDevelop}
-            href="https://cleancode.kr/troubleshooting-develop"
+            href="https://cleancode.shop/troubleshooting-develop"
           />
         </SimpleGrid>
       </Section>
