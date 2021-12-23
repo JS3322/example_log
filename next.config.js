@@ -1,10 +1,10 @@
-// module.exports = {
-//   reactStrictMode: true,
-//   swcMinify: true
-// }
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    loader: 'imgix',
+    path: 'https://example.com/myaccount/',
+  },
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
@@ -15,5 +15,5 @@ module.exports = {
       '/works': { page: '/works' },
       '/5tudy': { page: '/5tudy' }
     }
-  },
+  }
 }

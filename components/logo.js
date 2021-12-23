@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
+const myLoader = ({ src, width, quality }) => {
+  return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+}
+
 const LogoBox = styled.span`
   font-weight: bold;
   font-size: 18px;
@@ -28,7 +32,12 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={cleancodePrintImg} width={20} height={20} alt="logo" />
+          <Image 
+            loader={myLoader} 
+            src={cleancodePrintImg} 
+            width={20} height={20} 
+            alt="logo" 
+          />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c'
