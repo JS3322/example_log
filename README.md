@@ -19,6 +19,7 @@ HomePage
 - [ ] make ico 
 - [x] image and source loading check
 - [ ] create a page that updates todolist when mail arrives
+- [x] Image Optimization
 
 ---
 ### Import Library
@@ -28,6 +29,7 @@ HomePage
 4. react : 17.0.2
 5. three : 0.135.0
 6. framer-motion : 5.3.0
+7. sharp : 0.29
 
 ---
 ### Stay in touch

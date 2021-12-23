@@ -5,8 +5,8 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTravelBook_thumb.png'
 import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_thumb.png'
-import thumb2021Noncognitive from '../public/images/works/2021_NoncognitiveDiagnosisMobileApp_thumb.png'
-import thumb2021DevOps from '../public/images/works/2021_MyDevOps_thumb.png'
+// import thumb2021Noncognitive from '../public/images/works/2021_NoncognitiveDiagnosisMobileApp_thumb.png'
+// import thumb2021DevOps from '../public/images/works/2021_MyDevOps_thumb.png'
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_thumb.png'
 
 const Works = () => (
