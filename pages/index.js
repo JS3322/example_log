@@ -43,7 +43,7 @@ const Home = () => (
             </Box>
       </Box>
 
-      <Section delay={0.6}>
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
@@ -65,7 +65,7 @@ const Home = () => (
 
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.6}>
         <Heading as="h3" variant="section-title">
           Career
         </Heading>
@@ -79,7 +79,7 @@ const Home = () => (
           </BioSection>
       </Section>
 
-            <Section delay={0.4}>
+            <Section delay={0.8}>
                 <Heading as='h3' variant="section-title">
                     hobby
                 </Heading>

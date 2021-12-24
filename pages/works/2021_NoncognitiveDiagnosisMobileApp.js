@@ -20,7 +20,7 @@ const Work = () => (
       
       <UnorderedList my={4}>
         <ListItem>
-        fultter UI 
+        비인지 진단 fultter UI 개발과 API 구조 기획과 개발 및 환경구성
         </ListItem>
       </UnorderedList>
       
@@ -28,11 +28,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>flutter2.0 | Url_launcher | Bloc</span>
+          <span>flutter2.0 | Url_launcher | Bloc | Shell Script</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>SVN | Sqflite | Adobe XD</span>
+          <span>SVN | Sqflite | Adobe XD | Docker | Yona | Github</span>
         </ListItem>
       </List>
 
@@ -42,27 +42,21 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        현대자동차
+          재정과 인력부족에 맞춘 인프라 구축작업. 클라이언트 테스트와 데이터 송수신 암호화 이슈와 인프라 부족으로 OCI 클라우드 1컴퓨팅 개발환경을 구성과 접속 테스트 환경 구축 및 프록시와 접근IP, PORT 관리 할 수 있는 Public 컴퓨터 구성에 대한 아이디어로 웹접속 클라우드 컴퓨터 구축.
         </ListItem>
 
         <ListItem>
-        현대자동차
+          카카오봇을 통한 API 테스트 환경 구축. 클라이언트 분들이 늘 접속해 있는 카카오톡을 사용하여 API 테스트 상황공유를 접근성을 고려하여 계획 구축. 
         </ListItem>
 
         <ListItem>
-        현대자동차
+        앱 사진이 서버 업로드가 안되는 이슈와 함께 BLoC 구조에서 Steams 비동기적 구성 되는 UI 이슈에 image 라이브러리 활용하여 임시 디렉토리 주소로 저장 후 서버에 업로드하는 단계적 스위치 구성으로 개발. 
         </ListItem>
 
-        <ListItem>
-        현대자동차
-        </ListItem>
-
-        <ListItem>
-        현대자동차
-        </ListItem>
       </UnorderedList>
 
       <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0001.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
+      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0002.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
       
       
     </Container>
