@@ -17,7 +17,9 @@ const Work = () => (
       서울대학교 모바일가상학교 통합관리시스템 <Badge>2020</Badge>
       </Title>
 
-      
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>개요</Center>
+      </Heading>
       
       <UnorderedList my={4}>
         <ListItem>

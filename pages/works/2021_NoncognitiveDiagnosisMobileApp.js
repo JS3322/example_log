@@ -17,7 +17,10 @@ const Work = () => (
         비인지진단 모바일앱 <Badge>2021</Badge>
       </Title>
       
-      
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>개요</Center>
+      </Heading>
+
       <UnorderedList my={4}>
         <ListItem>
         비인지 진단 fultter UI 개발과 API 구조 기획과 개발 및 환경구성

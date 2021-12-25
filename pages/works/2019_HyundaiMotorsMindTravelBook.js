@@ -17,8 +17,9 @@ const Work = () => (
       현대자동차 마음여행책 <Badge>2019</Badge>
       </Title>
 
-      
-
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>개요</Center>
+      </Heading>
       
       <UnorderedList my={4}>
         <ListItem>

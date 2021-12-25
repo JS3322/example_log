@@ -17,7 +17,10 @@ const Work = () => (
         MyHomePage <Badge>2021</Badge>
       </Title>
 
-      
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>개요</Center>
+      </Heading>
+
       <UnorderedList my={4}>
         <ListItem>
         나의 사고, 디자인이 녹아든 나만의 집 구성 프로젝트 ver.2021 업로드 된 Post 유지보수가 간단명료한 보금자리 만들기.
