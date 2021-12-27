@@ -111,3 +111,4 @@ README_private.md
 _temp/
 _backup/
 *.glb
+.env

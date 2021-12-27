@@ -1,19 +1,14 @@
+const API_KEY = process.env.API_KEY;
+
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-  // images: {
-  //   loader: 'imgix',
-  //   path: 'https://example.com/myaccount/',
-  // },
-  // exportPathMap: async function (
-  //   defaultPathMap,
-  //   { dev, dir, outDir, distDir, buildId }
-  // ) {
-  //   return {
-  //     '/': { page: '/' },
-  //     '/home': { page: '/' },
-  //     '/works': { page: '/works' },
-  //     '/5tudy': { page: '/5tudy' }
-  //   }
-  // }
-}
+  async rewrites() {
+    return [
+      {
+        source: "/check/movies",
+        destination: `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`,
+      },
+    ];
+  },
+};

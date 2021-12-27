@@ -88,8 +88,6 @@ const Home = () => (
                 </Paragraph>
             </Section>
 
-            
-
         </Container>
         </Layout>
     )
