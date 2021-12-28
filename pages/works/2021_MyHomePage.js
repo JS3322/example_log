@@ -34,7 +34,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>PostgreSQL | JWT | GraphQL | OCI EC2 | GithubPages | gRPC | Nginx | Docker | Wireshark </span>
+          <span>PostgreSQL | JWT | REST API | OCI EC2 | GKE | Helm | Nginx | Docker | Wireshark </span>
         </ListItem>
       </List>
 
@@ -53,6 +53,10 @@ const Work = () => (
 
         <ListItem>
           백업 구조 기획. Git과 클라우드 씽크 하드링크를 통해 2중 백업 구조와 간단한 작업 동선 구현. 
+        </ListItem>
+
+        <ListItem>
+          k8s 세팅. GKE와 OCI EC2를 복합으로 다중 pod구성 및 문서 스크랩과 자동 git 쉘스크립트를 통해 DB백업 이중 구성으로 데이터 정리.
         </ListItem>
 
       </UnorderedList>

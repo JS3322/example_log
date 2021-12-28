@@ -6,8 +6,12 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/check/movies",
+        source: "/check/5tudy",
         destination: `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`,
+      },
+      {
+        source: "/check/5tudy/:id",
+        destination: `https://api.themoviedb.org/3/movie/:id?api_key=${API_KEY}`,
       },
     ];
   },
