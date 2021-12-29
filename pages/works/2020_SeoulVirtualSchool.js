@@ -35,7 +35,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>Oracle DB 19c | ORM | Tomcat8.5 | Nginx1.14 | Spring Cloud | batch | JPA | Hibernate | Selenium | AWS EC2 | AWS route 53 | Oracle ADW | centOS7 | ELK | Nest | Storybook6 | babel7 | gulp4 | react16 | node-sass4 | tailwind | Illustrator | Redmine | Google Workspace</span>
+          <span>Oracle DB 19c | ORM | Tomcat8.5 | Nginx1.14 | Spring Cloud | batch | JPA | Hibernate | Selenium | AWS EC2 | AWS route 53 | Oracle ADW | centOS7 | ELK | Storybook6 | babel7 | gulp4 | react16 | node-sass4 | tailwind | Illustrator | Redmine | Google Workspace</span>
         </ListItem>
       </List>
 
