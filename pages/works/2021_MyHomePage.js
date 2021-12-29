@@ -34,7 +34,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>PostgreSQL | JWT | REST API | OCI EC2 | GKE | Helm | Nginx | Docker | Wireshark </span>
+          <span>PostgreSQL | JWT | REST API | OCI EC2 | GKE | Helm | Nginx | Docker | Substance 3D Painter | Wireshark </span>
         </ListItem>
       </List>
 
@@ -44,7 +44,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-          프로젝트 디자인하기. 간단명료한 Post관리 앱을 만들 때 업무라는 느낌과 포스트잇, 사진첩이라는 컨셉을 갖고 UI 디자인. static page를 기준으로 미들웨어를 만들고, 데이터 처리 및 송수신 구조에 개발 집중할 수 있도록 개발계획 작성.
+          프로젝트 디자인하기. 간단명료한 Post관리 앱을 만들 때 업무라는 느낌과 포스트잇, 사진첩이라는 컨셉을 갖고 UI 디자인. Substance 3D Painter과 color로 History라는 테마에 맞는 색감 구성. static page를 기준으로 미들웨어를 만들고, 데이터 처리 및 송수신 구조에 개발 집중할 수 있도록 개발계획 작성.
         </ListItem>
 
         <ListItem>

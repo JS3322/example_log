@@ -35,7 +35,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>SVN | Sqflite | Adobe XD | Docker | Yona | Github</span>
+          <span>SVN | Sqflite | Adobe XD | Docker | Yona | Github | Illustrator</span>
         </ListItem>
       </List>
 
@@ -54,6 +54,10 @@ const Work = () => (
 
         <ListItem>
         앱 사진이 서버 업로드가 안되는 이슈와 함께 BLoC 구조에서 Steams 비동기적 구성 되는 UI 이슈에 image 라이브러리 활용하여 임시 디렉토리 주소로 저장 후 서버에 업로드하는 단계적 스위치 구성으로 개발. 
+        </ListItem>
+
+        <ListItem>
+        Illustrator로 UI 디자인과 XD를 활용하여 템플릿구성. 한 페이지에 솔루션 선택기능을 최대한 살리는 UI템플릿 기획. 
         </ListItem>
 
       </UnorderedList>

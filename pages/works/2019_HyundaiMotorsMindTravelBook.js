@@ -31,11 +31,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Java6 | JavaScriptES5 | runnable | collection | Python3 | async | generator | lock | mvc | command | master-slave pattern</span>
+          <span>Java6 | JavaScriptES5 | JSP | runnable | collection | Python3 | async | generator | lock | mvc | command | master-slave pattern</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>Oracle DB 11g | Ojdbc6 | Tomcat7.5 | html5 | scss | JSP | React | centOS7 | Nginx1.14 | Wsgi | Oracle APEX | Wireshark</span>
+          <span>Spring | Oracle DB 11g | Ojdbc6 | Tomcat7.5 | html5 | scss | JSP | React | centOS7 | Nginx1.14 | Wsgi | Illustrator | Wireshark</span>
         </ListItem>
       </List>
 
@@ -45,7 +45,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        계정발급/계정관리 업무. 계정에 필요한 데이터를 객체상속하여 DB의 계정번호를 synchronzation화 하여 데이터 매핑 hash함수를 기반으로 클러스터링하여 색인속도 튜닝.
+        계정발급/계정관리 업무. 계정에 필요한 데이터를 객체상속하여 DB의 계정번호를 synchronzation화 하여 데이터 매핑 hash함수를 기반으로 클러스터링하여 색인속도 튜닝. 로그인, 세션, 트래픽 분산 관련 네트워크 작업 관리 및 Spring cloud도입하여 레이턴시 관리와 API Gateway 서버 개발 경험.
         </ListItem>
 
         <ListItem>
@@ -61,8 +61,13 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-        일러스트 디자인 및 svg 리소스 관리. 로고와 페이지 디자인 및 번들 용량 줄이기 위해 svg파일을 object로 사용하여 색상변경, 백터 가장자리에 필요없는 로직 검토 및 삭제.
+        일러스트 디자인 및 svg 리소스 관리. 추상기하학을 토대로 대량 PDF디자인 작성, 로고와 페이지 디자인 및 번들 용량 줄이기 위해 svg파일을 object로 사용하여 색상변경, 백터 가장자리에 필요없는 로직 검토 및 삭제.
         </ListItem>
+
+        <ListItem>
+        수집된 데이터 기반으로 카테고리 유형에 맞도록 제안서 작성과 타 솔루션과 비교하여 차별된 자동유형 설정 시스템 기획.
+        </ListItem>
+        
       </UnorderedList>
 
       <WorkImage src="/images/works/2019_HyundaiMotorsMindTravelBook_0001.png" alt="2019_HyundaiMotorsMindTravelBook" />

@@ -31,11 +31,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Java8 | JavaScriptES6 | Django2.2 </span>
+          <span>Java8 | JavaScriptES6 | Django2.2 | CSS3 </span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>Oracle DB 19c | ORM | Tomcat8.5 | Nginx1.14 | Spring Cloud | batch | JPA | Hibernate | AWS EC2 | AWS route 53 | Oracle ADW | centOS7 | ELK | Nest | Storybook6 | babel7 | gulp4 | react16 | node-sass4 | tailwind</span>
+          <span>Oracle DB 19c | ORM | Tomcat8.5 | Nginx1.14 | Spring Cloud | batch | JPA | Hibernate | Selenium | AWS EC2 | AWS route 53 | Oracle ADW | centOS7 | ELK | Nest | Storybook6 | babel7 | gulp4 | react16 | node-sass4 | tailwind | Redmine | Google Workspace</span>
         </ListItem>
       </List>
 
@@ -53,7 +53,7 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-        자동 카테고리화 시스템 개발. 가중치 변화 적용 시스템 개발하여 데이터 카테고리화 실시간 적용하고 데이터를 각 유형으로 나누기 위해 유클리디 기반 통계 모델링 개발.
+        자동 카테고리화 시스템 개발. Selenium으로 데이터 수집을 토대로 가중치 변화 적용 시스템 개발하여 데이터 카테고리화 실시간 적용하고 데이터를 각 유형으로 나누기 위해 유클리디 기반 통계 모델링 개발.
         </ListItem>
 
         <ListItem>
@@ -67,6 +67,15 @@ const Work = () => (
         <ListItem>
         통합관리 시스템 웹개발 PM 업무. 5억 연구비의 프로젝트에 통합관리 시스템 웹개발 파트 PM으로 참여하여 5개의 기업에 패키지 솔루션 납품 및 추천 시스템 기획, 개발하여 매출액 40% 증가 성과이력.
         </ListItem>
+
+        <ListItem>
+        React 비동기 로딩 순번 이슈 및 HTML Embed구조와 배포 관리. React Suspense와 SWR 등 기능을 활용한 비동기 튜닝, Youtube를 포함한 Embed컴포넌트 기반으로 반응형과 크로스브라우징을 고려한 개발과 HTML, CSS, 데이터처리 컴포넌트화 설계 구현. 기존 웹앱을 PWA와 구글스토어에 개시하여 보수 경험
+        </ListItem>
+
+        <ListItem>
+        제안서 PT작성 경험과 이모티콘, 시각디자인 작업. 앱서비스 병합 및 개발이력, 상태관리 운용.
+        </ListItem>
+        
       </UnorderedList>
 
       <WorkImage src="/images/works/2020_SeoulVirtualSchool_contents_0001.png" alt="2020_SeoulVirtualSchool" />

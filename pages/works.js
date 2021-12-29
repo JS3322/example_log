@@ -20,7 +20,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 2, 2]} gap={6}>
       <Section delay={0.3}>
           <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
-            나의 보금자리 쌓아가기
+            마이홈 프로젝트
           </WorkGridItem>
         </Section>
 
