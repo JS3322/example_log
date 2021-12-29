@@ -23,7 +23,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        나의 사고, 디자인이 녹아든 나만의 집 구성 프로젝트 ver.2021 업로드 된 Post 유지보수가 간단명료한 보금자리 만들기.
+        나의 사고, 디자인이 녹아든 마이홈 프로젝트. Post 유지보수가 간단명료한 로직구현.
         </ListItem>
       </UnorderedList>
 
