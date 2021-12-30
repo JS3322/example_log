@@ -30,11 +30,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>JavaScriptES6 | React17 | Next12 | Three.js | chakra-ui1.7 | Go1.17 </span>
+          <span>JavaScriptES6 | React17 | Next.js12 | Three.js | chakra-ui1.7 </span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>PostgreSQL | JWT | REST API | OCI EC2 | GKE | Helm | Nginx | Docker | Substance 3D Painter | Wireshark </span>
+          <span>PostgreSQL | Nest.js | REST API | GKE | Nginx | Docker | Blender | Substance 3D Painter </span>
         </ListItem>
       </List>
 
