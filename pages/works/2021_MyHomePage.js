@@ -34,7 +34,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>PostgreSQL | Nest.js | REST API | GKE | Nginx | Docker | Blender | Substance 3D Painter </span>
+          <span>PostgreSQL | Nest.js | REST API | GKE | Nginx | Docker | Magicvoxel | Blender | Substance 3D Painter </span>
         </ListItem>
       </List>
 
