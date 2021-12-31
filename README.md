@@ -13,12 +13,11 @@ HomePage
 - [x] animate the toggle
 - [x] use three.js | components
 - [ ] babylon.js and three.js comparison test
-- [ ] Connect API Server
+- [x] Connect API Server
 - [ ] web component migration
 - [x] make less than 3mb glb | public
-- [ ] make ico 
+- [x] make ico 
 - [x] image and source loading check
-- [ ] create a page that updates todolist when mail arrives
 - [x] Image Optimization
 
 ---
