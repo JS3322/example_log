@@ -1,29 +1,20 @@
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import Link from "next/link";
-import s5tudyCSS from '../public/styles/s5tudy.module.css'
+import { useRouter } from "next/router";
+import s5tudy from '../public/styles/s5tudy.module.css'
 
-export default function Check() {
-  const [s5tudy, set5tudy] = useState();
+export default function Check({ results }) {
   const router = useRouter();
-  useEffect(() => {
-    (async () => {
-      const { results } = await (await fetch(`/check/5tudy`)).json();
-      set5tudy(results);
-    })();
-  }, []);
-  const onClick = (id, original_title, poster_path) => {
-    router.push(`/5tudy/${original_title}/${id}/${poster_path}`);
+  const onClick = (id, title, poster_path) => {
+    router.push(`/5tudy/${id}/${title}/${poster_path}`);
   };
   return (
-    <div className={s5tudyCSS.containerCheck}>
-    {!s5tudy && <h4>Loading...</h4>}
-    {s5tudy?.map((movie) => (
+    <div className={s5tudy.containerCheck}>
+    {results?.map((movie) => (
       <div
-      onClick={() => onClick(movie.id, movie.original_title, movie.poster_path)}
-      className={s5tudyCSS.contentsCheck}
-      key={movie.id}
-  >
+          onClick={() => onClick(movie.id, movie.original_title, movie.poster_path)}
+          className={s5tudy.contentsCheck}
+          key={movie.id}
+      >
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
         <h4>
         <Link href={`/5tudy/${movie.id}`}>
@@ -36,4 +27,12 @@ export default function Check() {
   );
 }
 
-
+export async function getStaticProps() {
+  const { results } = await (
+    await fetch(`http://localhost:3000/check/5tudy`)).json();
+  return {
+    props: {
+      results,
+    },
+  };
+}
