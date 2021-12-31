@@ -56,8 +56,14 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
+        프론트엔드 랜더링 보안과 간결화 구조. Dynamic Routes의 로직, SSR으로 파일서버에서 소스 읽어오는 구조를 Vercel로 migration하면서 static server 이슈로써 클라이언트에서 파일서버 방화벽 대신 API secret key와 next.config, .env 환경 변수로 리소스 주소 접근보안 방식로 변경.
+        </ListItem>
+
+        <ListItem>
           k8s 세팅. GKE와 OCI EC2를 복합으로 다중 pod구성 및 문서 스크랩과 자동 git 쉘스크립트를 통해 DB백업 이중 구성으로 데이터 정리.
         </ListItem>
+
+        
 
       </UnorderedList>
       
