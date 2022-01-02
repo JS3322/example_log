@@ -5,16 +5,19 @@ import {
   ListItem,
   UnorderedList,
   Heading,
-  Center
+  Center,
+  Button,
+  Box
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2017 토이프로젝트">
+  <Layout title="2018 토이프로젝트">
     <Container>
       <Title>
-      토이프로젝트 <Badge>2017</Badge>
+      토이프로젝트 <Badge>2018</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>
@@ -39,6 +42,17 @@ const Work = () => (
         </ListItem>
       </List>
 
+      <Box
+        flexShrink={0}
+        mt={{ base: 4, md: 0 }}
+        ml={{ md: 6 }}
+        textAlign="center"
+      >
+        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">   
+          No link as closed service
+        </Button>
+      </Box>
+
       <Heading as="h4" fontSize={16} my={6}>
         <Center>주요 업무</Center>
       </Heading>
@@ -58,7 +72,7 @@ const Work = () => (
 
       </UnorderedList>
 
-      <WorkImage src="/images/works/2017_ToyProject_contents0001.png" alt="2017_ToyProject" />
+      <WorkImage src="/images/works/2018_ToyProject_contents_0001.png" alt="2018_ToyProject" />
       
     </Container>
   </Layout>

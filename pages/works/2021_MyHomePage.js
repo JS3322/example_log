@@ -5,8 +5,12 @@ import {
   ListItem,
   UnorderedList,
   Heading,
-  Center
+  Center,
+  Button,
+  Box
 } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
@@ -34,9 +38,22 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>PostgreSQL | Nest.js | REST API | GKE | Nginx | Docker | Magicvoxel | Blender | Substance 3D Painter </span>
+          <span>PostgreSQL | Nest.js | REST API | GKE | Nginx | Docker | MagicVoxel | Blender | Substance 3D Painter </span>
         </ListItem>
       </List>
+
+      <Box
+        flexShrink={0}
+        mt={{ base: 4, md: 0 }}
+        ml={{ md: 6 }}
+        textAlign="center"
+      >
+      <NextLink href="https://cleancode.kr">
+        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+          Service Link
+        </Button>
+      </NextLink>
+      </Box>
 
       <Heading as="h3" fontSize={16} my={6}>
         <Center>주요 업무</Center>

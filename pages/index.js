@@ -22,7 +22,7 @@ const Home = () => (
         PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT지식, 알고리즘, 디자인의 근본적인 부분부터 공부하고 있습니다!
       </Box>
 
-            <Box display={{md:'flex'}}>
+        <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                     Developer JS

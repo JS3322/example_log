@@ -29,7 +29,6 @@ HomePage
 5. three : 0.135.0
 6. framer-motion : 5.3.0
 7. sharp : 0.29
-8. graphql : 16.2
 
 ---
 ### Stay in touch

@@ -33,10 +33,10 @@ export default function Check() {
   >
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
         <h4>
-        <Link href={`/5tudy/${movie.id}`}>
-              <a>{movie.original_title}</a>
-            </Link>
-          </h4>
+          <Link href={`/5tudy/${movie.id}`}>
+            <a>{movie.original_title}</a>
+          </Link>
+        </h4>
       </div>
     ))}
   </div>

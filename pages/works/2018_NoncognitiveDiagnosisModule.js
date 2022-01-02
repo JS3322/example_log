@@ -5,8 +5,12 @@ import {
   ListItem,
   UnorderedList,
   Heading,
-  Center
+  Center,
+  Button,
+  Box
 } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
@@ -39,6 +43,19 @@ const Work = () => (
         </ListItem>
       </List>
 
+      <Box
+        flexShrink={0}
+        mt={{ base: 4, md: 0 }}
+        ml={{ md: 6 }}
+        textAlign="center"
+      >
+      <NextLink href="http://www.gritt.co.kr/">
+        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+          Service Link
+        </Button>
+      </NextLink>
+      </Box>
+
       <Heading as="h4" fontSize={16} my={6}>
         <Center>주요 업무</Center>
       </Heading>
@@ -58,8 +75,8 @@ const Work = () => (
 
       </UnorderedList>
 
-      <WorkImage src="/images/works/2018_NoncognitiveDiagnosisModule_contents0001.png" alt="2018_NoncognitiveDiagnosisModule" />
-      <WorkImage src="/images/works/2018_NoncognitiveDiagnosisModule_contents0002.png" alt="2018_NoncognitiveDiagnosisModule" />
+      <WorkImage src="/images/works/2018_NoncognitiveDiagnosisModule_contents_0001.png" alt="2018_NoncognitiveDiagnosisModule" />
+      <WorkImage src="/images/works/2018_NoncognitiveDiagnosisModule_contents_0002.png" alt="2018_NoncognitiveDiagnosisModule" />
       
     </Container>
   </Layout>

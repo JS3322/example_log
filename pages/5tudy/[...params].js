@@ -3,10 +3,6 @@ import { Back, WorkImage } from '../../components/work'
 
 export default function Detail() {
   const router = useRouter();
-  console.log("params");
-  console.log(router);
-  console.log(router.query.params);
-  console.log(router.asPath);
   return (
     <div>
       <Back>

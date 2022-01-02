@@ -5,8 +5,11 @@ import {
   ListItem,
   UnorderedList,
   Heading,
-  Center
+  Center,
+  Button,
+  Box
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
@@ -38,6 +41,17 @@ const Work = () => (
           <span>Oracle DB 19c | ORM | Tomcat8.5 | Nginx1.14 | Spring Cloud | batch | JPA | Hibernate | Selenium | AWS EC2 | AWS route 53 | Oracle ADW | centOS7 | ELK | Storybook6 | babel7 | gulp4 | react16 | node-sass4 | tailwind | Illustrator | Redmine | Google Workspace</span>
         </ListItem>
       </List>
+
+      <Box
+        flexShrink={0}
+        mt={{ base: 4, md: 0 }}
+        ml={{ md: 6 }}
+        textAlign="center"
+      >
+        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+        No links to internal services
+        </Button>
+      </Box>
 
       <Heading as="h4" fontSize={16} my={6}>
         <Center>주요 업무</Center>

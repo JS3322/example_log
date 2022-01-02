@@ -3,12 +3,14 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumb2017Toy from '../public/images/works/2017_ToyProject_thumb.png'
-import thumb2018Noncognitive from '../public/images/works/2018_NoncognitiveDiagnosisModule_thumb.png'
-import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTravelBook_thumb.png'
-import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_thumb.png'
-import thumb2021Noncognitive from '../public/images/works/2021_NoncognitiveDiagnosisMobileApp_thumb.png'
-import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_thumb.png'
+import thumb2018Toy from '../public/images/works/2018_ToyProject_contents_0001.png'
+import thumb2018Noncognitive from '../public/images/works/2018_NoncognitiveDiagnosisModule_contents_0001.png'
+import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTravelBook_contents_0001.png'
+import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_contents_0001.png'
+import thumb2021Noncognitive from '../public/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0001.png'
+import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
+import thumb2021XrContentsManagement from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
+import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -18,28 +20,40 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 2, 2]} gap={6}>
-      <Section delay={0.3}>
-          <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
-            마이홈 프로젝트
+
+      <Section delay={0.2}>
+          <WorkGridItem id="2022_Worket" thumbnail={thumb2022Worket} title="데이터 저장, 분석 시스템 구현">
+            데이터 시각화 디자인과 트레이드 시스템 
           </WorkGridItem>
         </Section>
 
-        
+      
+        <Section delay={0.4}>
+          <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2021XrContentsManagement} title="비디오 모션 컨트롤러">
+            VR/AR 비디오 모션 컨트롤러 웹서비스
+          </WorkGridItem>
+        </Section>
+
       </SimpleGrid>
 
-      
-
-      <Section delay={0.4}>
+      <Section delay={0.5}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Close Project
         </Heading>
+        
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
 
-      <Section delay={0.6}>
+        <Section delay={0.6}>
+          <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
+            마이홈 프로젝트
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.6}>
           <WorkGridItem id="2021_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2021Noncognitive} title="비인지진단 모바일">
             비인지 진단 모바일 UI와 API 개발 및 환경구성
           </WorkGridItem>
@@ -47,7 +61,7 @@ const Works = () => (
 
         <Section delay={0.7}>
           <WorkGridItem id="2020_SeoulVirtualSchool" thumbnail={thumb2020School} title="모바일가상학교">
-          서울대학교 모바일가상학교의 각종 데이터 수집, 통계를 내리고 진단과 케어시스템 추천하는 통합관리 웹시스템 개발
+          서울대학교 모바일가상학교의 데이터 진단 후 케어시스템 추천하는 통합관리 웹시스템 개발
           </WorkGridItem>
         </Section>
 
@@ -64,7 +78,7 @@ const Works = () => (
         </Section>
 
         <Section delay={1.0}>
-          <WorkGridItem id="2017_ToyProject" thumbnail={thumb2017Toy} title="토이프로젝트">
+          <WorkGridItem id="2018_ToyProject" thumbnail={thumb2018Toy} title="토이프로젝트">
             웹 채팅프로그램과 알고리즘, 배포환경과 같은 개발 기본 구성
           </WorkGridItem>
         </Section>
