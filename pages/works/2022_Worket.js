@@ -34,11 +34,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Go1.17 | JavascriptEC6 | python3.8 | CSS3</span>
+          <span>Go1.17 | JavascriptEC6 | python3.10 | CSS3 | Next.js | Nest.js</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>BlockChain | PostgreSQL | GKE | OCI | Docker | graphQL | REST API | gRPC | Nginx | JWT | Illustrator | Blender | MagicVoxel | Ploty | Pandas</span>
+          <span>BlockChain | BoltDB | GKE | OCI | Docker | graphQL | REST API | Nginx | JWT | Illustrator | Blender | MagicVoxel | Ploty | Pandas</span>
         </ListItem>
       </List>
 
@@ -62,7 +62,23 @@ const Work = () => (
       <UnorderedList my={4}>
    
         <ListItem>
-          정리 중
+        Nginx 쿠버네티스 구성 로그파일 수집과 모니터링.
+        </ListItem>
+
+        <ListItem>
+        개발 된 응용프로그램 관리 CLI 개발. 네트워크 URL Response 에러코드 및 헤더를 활용하여 활성화 쿠버네티스 파드 및 마이크로서비스 체크 시스템 구성.
+        </ListItem>
+
+        <ListItem>
+        데이터 수집 및 모델링 데이터 API 배포 시스템 구축. 워크로드에 자동 파이프라인 세팅으로 Cloud Build API 사용하여 CI/CD 구축.
+        </ListItem>
+
+        <ListItem>
+        모델링 된 데이터 통계 출력 웹 시스템 구성. 스크랩된 데이터를 통한 dash 보드 출력 및 docker 이미지 배포.
+        </ListItem>
+
+        <ListItem>
+        통계 및 데이터 모델링 교환 플랫폼 구축. PPT, 이미지, 통계를 포함한 가치 있는 데이터를 저장하고 교환 데이터를 축척하여 데이터 가치에 대해 고찰.
         </ListItem>
 
       </UnorderedList>
