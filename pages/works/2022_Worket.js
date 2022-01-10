@@ -83,7 +83,8 @@ const Work = () => (
 
       </UnorderedList>
       
-      <WorkImage src="/images/works/2022_Worket_contents_0001.png" alt="2021_XrContentsManagement" />
+      <WorkImage src="/images/works/2022_Worket_contents_0001.png" alt="2022_Worket" />
+      <WorkImage src="/images/works/2022_Worket_contents_0002.png" alt="2022_Worket" />
       
     </Container>
   </Layout>
