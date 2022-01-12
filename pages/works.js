@@ -7,7 +7,7 @@ import thumb2018Toy from '../public/images/works/2018_ToyProject_contents_0001.p
 import thumb2018Noncognitive from '../public/images/works/2018_NoncognitiveDiagnosisModule_contents_0001.png'
 import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTravelBook_contents_0001.png'
 import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_contents_0001.png'
-import thumb2021Noncognitive from '../public/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0001.png'
+import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png'
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
 import thumb2021XrContentsManagement from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
@@ -54,7 +54,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="2021_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2021Noncognitive} title="비인지진단 모바일">
+          <WorkGridItem id="2020_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2020Noncognitive} title="비인지진단 모바일">
             비인지 진단 모바일 UI와 API 개발 및 환경구성
           </WorkGridItem>
         </Section>

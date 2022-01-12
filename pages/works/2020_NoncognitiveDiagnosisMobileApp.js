@@ -14,10 +14,10 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2021 비인지진단 모바일앱">
+  <Layout title="2020 비인지진단 모바일앱">
     <Container>
       <Title>
-        비인지진단 모바일앱 <Badge>2021</Badge>
+        비인지진단 모바일앱 <Badge>2020</Badge>
       </Title>
       
       <Heading as="h4" fontSize={16} my={6}>
@@ -38,7 +38,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>SVN | Sqflite | Adobe XD | Docker | Yona | Github | Illustrator</span>
+          <span>SVN | Sqflite | Kubernetes | GCP | Adobe XD | Docker | Yona | Github | Illustrator</span>
         </ListItem>
       </List>
 
@@ -63,7 +63,7 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          카카오봇을 통한 API 테스트 환경 구축. 클라이언트 분들이 늘 접속해 있는 카카오톡을 사용하여 API 테스트 상황공유를 접근성을 고려하여 계획 구축. 
+        카카오봇을 통한 API 테스트 환경 구축. 클라이언트 분들이 늘 접속해 있는 카카오톡을 사용하여 API 테스트 상황공유를 접근성을 고려하여 구현하였고 솔루션 배포 및 인계/관리 시스템을 위해 Kubernetes 구축.
         </ListItem>
 
         <ListItem>
@@ -76,8 +76,8 @@ const Work = () => (
 
       </UnorderedList>
 
-      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0001.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
-      <WorkImage src="/images/works/2021_NoncognitiveDiagnosisMobileApp_contents_0002.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
+      <WorkImage src="/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
+      <WorkImage src="/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0002.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
       
       
     </Container>
