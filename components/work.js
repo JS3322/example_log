@@ -17,7 +17,7 @@ export const Title = ({ children }) => (
   </Box>
 )
 
-export const Back = ({ children }) => (
+export const Title5tudy = ({ children }) => (
   <Box>
     <NextLink href="/5tudy">
       <Link>5tudy</Link>

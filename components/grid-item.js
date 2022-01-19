@@ -42,6 +42,27 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
   </Box>
 )
 
+export const StudyGridItem = ({ children, id, title, thumbnail }) => (
+  <Box w="100%" textAlign="center">
+    <NextLink href={`/5tudy/${id}`}>
+      <LinkBox cursor="pointer">
+        <Image
+          src={thumbnail}
+          alt={title}
+          className="grid-item-thumbnail"
+          placeholder="blur"
+        />
+        <LinkOverlay href={`/5tudy/${id}`}>
+          <Text mt={2} fontSize={20}>
+            {title}
+          </Text>
+        </LinkOverlay>
+        <Text fontSize={14}>{children}</Text>
+      </LinkBox>
+    </NextLink>
+  </Box>
+)
+
 export const GridItemStyle = () => (
   <Global
     styles={`
