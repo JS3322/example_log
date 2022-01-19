@@ -19,6 +19,9 @@ HomePage
 - [x] make ico 
 - [x] image and source loading check
 - [x] Image Optimization
+- [ ] temp 5tudy update && use dynamic route
+- [ ] use SSR && search contents with google
+- [ ] link DB github SCV file
 
 ---
 ### Import Library
