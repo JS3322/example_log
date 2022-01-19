@@ -10,7 +10,7 @@ const S5tudy = () => (
   <Layout title="20220119">
     <Container>
       <Title5tudy>
-      분산트랜젝션 TCC (Try-confirm / Cancle)
+      분산트랜잭션 TCC (Try-confirm / Cancle)
       </Title5tudy>
       <WorkImage src="/images/5tudy/20220119.png" alt="5tudy" />
 
