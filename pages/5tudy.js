@@ -10,6 +10,7 @@ import thumb20220117 from '../public/images/5tudy/20220117.png'
 import thumb20220118 from '../public/images/5tudy/20220118.png'
 import thumb20220119 from '../public/images/5tudy/20220119.png'
 import thumb20220120 from '../public/images/5tudy/20220120.png'
+import thumb20220121 from '../public/images/5tudy/20220121.png'
 
 const S5tudy = () => (
   <Layout title="5tudy">
@@ -21,7 +22,9 @@ const S5tudy = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 3, 3]} gap={6}>
 
-        <StudyGridItem id="20220120" thumbnail={thumb20220120} title="Circuit Breaker Pattern" />
+          <StudyGridItem id="20220121" thumbnail={thumb20220121} title="transaction" />
+
+          <StudyGridItem id="20220120" thumbnail={thumb20220120} title="Circuit Breaker Pattern" />
 
           <StudyGridItem id="20220119" thumbnail={thumb20220119} title="Distributed transaction TCC" />
 
