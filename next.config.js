@@ -6,6 +6,15 @@ module.exports = {
   async rewrites() {
     return [
       {
+        source: "/studylist",
+        // destination: `/data/studylist`,
+        destination: `https://raw.githubusercontent.com/JS3322/project_homepage/main/public/data/studylist.json`,
+      },
+      {
+        source: "/studysub",
+        destination: `https://raw.githubusercontent.com/plotly/datasets/master/2014_apple_stock.csv`,
+      },
+      {
         source: "/check/5tudy",
         destination: `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`,
       },

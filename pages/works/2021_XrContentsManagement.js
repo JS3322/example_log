@@ -65,7 +65,8 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          정리 중
+        - Stream과 XML 전송/다운/업로드 기능 구현.
+- String 외 프로그램과 연동 시스템 구현. 
         </ListItem>
 
       </UnorderedList>

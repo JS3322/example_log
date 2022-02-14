@@ -32,6 +32,7 @@ HomePage
 5. three : 0.135.0
 6. framer-motion : 5.3.0
 7. sharp : 0.29
+8. axios : 0.25
 
 ---
 ### Stay in touch

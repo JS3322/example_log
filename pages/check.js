@@ -32,6 +32,7 @@ export default function Check() {
       key={movie.id}
   >
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
+        {/* <img src={'/images/5tudy/issue_SoftwareArchitecture.png'} /> */}
         <h4>
           <Link href={`/5tudy/${movie.id}`}>
             <a>{movie.original_title}</a>

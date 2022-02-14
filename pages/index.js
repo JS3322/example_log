@@ -1,6 +1,4 @@
-import NextLink from 'next/link'
-import { Container, Heading, Box, SimpleGrid, Button, useColorModeValue } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { Container, Heading, Box, SimpleGrid, useColorModeValue } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -35,11 +33,6 @@ const Home = () => (
                   ml={{ md: 6 }}
                   textAlign="center"
                 >
-                {/* <NextLink href="https://cleancode.shop/history">
-                <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                  구직 포트폴리오
-                </Button>
-                </NextLink> */}
             </Box>
       </Box>
 
@@ -71,11 +64,11 @@ const Home = () => (
         </Heading>
           <BioSection>
             <BioYear>2018</BioYear>
-              GritIT 회사 웹개발 업무 담당
+              GRIT 개발파트 팀장
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
-              천안에서 거주하면서 공부
+            <BioYear>2022</BioYear>
+              에이아이네트웍스 책임연구원
           </BioSection>
       </Section>
 
@@ -84,7 +77,7 @@ const Home = () => (
                     hobby
                 </Heading>
                 <Paragraph>
-                  Develop, Design, HomeGarbageCollection, Travel
+                  Develop, HomeGarbageCollection, Travel
                 </Paragraph>
             </Section>
 
