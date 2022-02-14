@@ -19,7 +19,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >  
-        PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT지식, 알고리즘, 디자인의 근본적인 부분부터 공부하고 있습니다!
+        PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT지식, 서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
       </Box>
 
         <Box display={{md:'flex'}}>
@@ -35,11 +35,11 @@ const Home = () => (
                   ml={{ md: 6 }}
                   textAlign="center"
                 >
-                <NextLink href="https://cleancode.shop/history">
+                {/* <NextLink href="https://cleancode.shop/history">
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                   구직 포트폴리오
                 </Button>
-                </NextLink>
+                </NextLink> */}
             </Box>
       </Box>
 
@@ -47,7 +47,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        <SimpleGrid columns={[1, 4, 5]} gap={6}>
+        <SimpleGrid columns={[2, 4, 5]} gap={6}>
 
           <GridItem
             href="https://www.instagram.com/cleancode_js/"
