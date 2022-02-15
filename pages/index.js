@@ -67,6 +67,10 @@ const Home = () => (
               GRIT 개발파트 팀장
           </BioSection>
           <BioSection>
+            <BioYear>2020</BioYear>
+              옵티마이즈컨설팅 대표이사
+          </BioSection>
+          <BioSection>
             <BioYear>2022</BioYear>
               에이아이네트웍스 책임연구원
           </BioSection>
