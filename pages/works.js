@@ -9,7 +9,6 @@ import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTrave
 import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_contents_0001.png'
 import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png'
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
-import thumb2021XrContentsManagement from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
 
 const Works = () => (
@@ -28,11 +27,6 @@ const Works = () => (
         </Section>
 
       
-        <Section delay={0.4}>
-          <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2021XrContentsManagement} title="비디오 모션 컨트롤러">
-            VR/AR 비디오 모션 컨트롤러 웹서비스
-          </WorkGridItem>
-        </Section>
 
       </SimpleGrid>
 
