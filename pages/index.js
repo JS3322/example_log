@@ -17,7 +17,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >  
-        PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT지식, 서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
+        PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
       </Box>
 
         <Box display={{md:'flex'}}>
@@ -69,10 +69,6 @@ const Home = () => (
           <BioSection>
             <BioYear>2020</BioYear>
               옵티마이즈컨설팅 대표이사
-          </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
-              에이아이네트웍스 책임연구원
           </BioSection>
       </Section>
 
