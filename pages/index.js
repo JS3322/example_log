@@ -69,6 +69,13 @@ const Home = () => (
           <BioSection>
             <BioYear>2020</BioYear>
               옵티마이즈컨설팅 대표이사
+<<<<<<< HEAD
+=======
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+              에이아이네트웍스 책임연구원
+>>>>>>> d0f80b95c5bb697f9610d31c5bf518dd274063a3
           </BioSection>
       </Section>
 
