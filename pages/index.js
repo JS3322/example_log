@@ -64,7 +64,7 @@ const Home = () => (
         </Heading>
           <BioSection>
             <BioYear>2018</BioYear>
-              GRIT 개발파트 팀장
+              GRIT 개발팀장
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>

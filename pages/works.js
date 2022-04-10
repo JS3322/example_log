@@ -10,6 +10,7 @@ import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_cont
 import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png'
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
 import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
+import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -22,7 +23,7 @@ const Works = () => (
 
       <Section delay={0.2}>
           <WorkGridItem id="2022_Worket" thumbnail={thumb2022Worket} title="데이터 저장, 분석 시스템 구현">
-            데이터 시각화 디자인과 트레이드 시스템 
+            데이터 가치에 대한 테스트
           </WorkGridItem>
         </Section>
 
@@ -40,6 +41,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
+
+      <Section delay={0.6}>
+          <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="컨텐츠 관리">
+            XR 컨텐츠 웹관리 솔루션
+          </WorkGridItem>
+        </Section>
 
         <Section delay={0.6}>
           <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
