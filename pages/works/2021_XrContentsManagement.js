@@ -34,11 +34,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Java11 | JavascriptEC6 | Jquey | SpringBoot</span>
+          <span>Java11 | JavascriptEC6 | CSS3 | Jquey | SpringBoot</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>정리 중</span>
+          <span>Sqlite3 | Mybatis | Maven | Tomcat8.5 | Ajax3 </span>
         </ListItem>
       </List>
 
@@ -65,7 +65,11 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-        정리 중
+          각 jar파일에 연동된 하드웨어 제어 시스템을 네트워크 관리 웹서비스 구현. 데이터 DB저장과 별도로 Queue 스케쥴러로 여러 모듈 명령어 관리 구현. 
+        </ListItem>
+
+        <ListItem>
+          각 모듈 동시 실행과 레이턴시 관리를 위해 API서버의 UTC시각 기준으로 핸드쉐이크 평균 리턴 시간을 계산하여 동기화 조절시스템 구성.
         </ListItem>
 
       </UnorderedList>
