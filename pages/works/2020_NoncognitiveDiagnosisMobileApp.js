@@ -48,9 +48,11 @@ const Work = () => (
         ml={{ md: 6 }}
         textAlign="center"
       >
+      <NextLink href="https://github.com/JS3322/gritv2_app">
         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-        No links to internal services
+          Source Link
         </Button>
+      </NextLink>
       </Box>
 
       <Heading as="h4" fontSize={16} my={6}>
