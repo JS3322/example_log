@@ -50,7 +50,7 @@ const Work = () => (
       >
       <NextLink href="https://github.com/JS3322/gritv2_app">
         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-          Source Link
+          Prototype Source Link
         </Button>
       </NextLink>
       </Box>
