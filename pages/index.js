@@ -42,12 +42,12 @@ const Home = () => (
         </Heading>
         <SimpleGrid columns={[2, 4, 5]} gap={6}>
 
-          <GridItem
+          {/* <GridItem
             href="https://www.instagram.com/cleancode_js/"
             title="Cooking Instagram"
             thumbnail={thumbInstagramCook}
           >
-          </GridItem>
+          </GridItem> */}
           <GridItem
             href="https://github.com/js3322"
             title="Develop Github"
