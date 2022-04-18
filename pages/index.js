@@ -64,11 +64,11 @@ const Home = () => (
         </Heading>
           <BioSection>
             <BioYear>2018</BioYear>
-              GRIT 개발팀장
+              비인지진단 개발팀장
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-              옵티마이즈컨설팅 대표이사
+              XR컨텐츠개발 PM
           </BioSection>
       </Section>
 

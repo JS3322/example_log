@@ -34,7 +34,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Java11 | JavascriptEC6 | CSS3 | Jquey | SpringBoot</span>
+          <span>Java11 | C | C++ | JavascriptEC6 | CSS3 | Jquey | SpringBoot</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
