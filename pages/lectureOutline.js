@@ -3,7 +3,7 @@ import {
   ListItem,
   UnorderedList
 } from '@chakra-ui/react'
-import { WorkImage } from '../../components/work'
+import { WorkImage } from '../components/work'
 
 const lectureOutline = () => {
   return (
