@@ -51,7 +51,7 @@ const Work = () => (
       >
       <NextLink href="https://github.com/JS3322/gritv2_app">
         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-          Prototype Source Link
+          Prototype UI Source Link
         </Button>
       </NextLink>
       </Box>
@@ -61,12 +61,17 @@ const Work = () => (
       </Heading>
 
       <UnorderedList my={4}>
+
+      <ListItem>
+      VR 연동 API 서버 구축 및 레이턴시 이슈대응. Nest.js 기반 GrqphQL로 데이터 송수신 기획과 개발, 다수 연동 VR마다 리턴 시간 측정 로그 데이터 수집하여 모니터링 대시보드 개발하여 관리자가 레이턴시 수정작업을 할 수 있도록 환경구성.
+      </ListItem>
+
         <ListItem>
           재정과 인력부족에 맞춘 인프라 구축작업. 클라이언트 테스트와 데이터 송수신 암호화 이슈와 인프라 부족으로 OCI 클라우드 1컴퓨팅 개발환경을 구성과 접속 테스트 환경 구축 및 프록시와 접근IP, PORT 관리 할 수 있는 Public 컴퓨터 구성에 대한 아이디어로 웹접속 클라우드 컴퓨터 구축.
         </ListItem>
 
         <ListItem>
-        카카오봇을 통한 API 테스트 환경 구축. 클라이언트 분들이 늘 접속해 있는 카카오톡을 사용하여 API 테스트 상황공유를 접근성을 고려하여 구현하였고 솔루션 배포 및 인계/관리 시스템을 위해 Kubernetes 구축.
+        카카오봇을 통한 API 테스트 환경 구축. 클라이언트 분들이 늘 접속해 있는 카카오톡을 사용하여 API 테스트 상황공유를 접근성을 고려하여 구현하였고 솔루션 배포 및 인계/관리 시스템을 위해 Kubernetes 구축과 장기운영 유지보수.
         </ListItem>
 
         <ListItem>
