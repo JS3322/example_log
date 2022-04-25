@@ -4,7 +4,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { GridItem } from '../components/grid-item'
-// import thumbInstagramCook from '../public/images/links/instagramCook.png'
+import thumbInstagramCook from '../public/images/links/instagramCook.png'
 import thumbGithubCode from '../public/images/links/githubCode.png'
 
 const Home = () => (
