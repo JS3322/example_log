@@ -29,9 +29,9 @@ const lectureOutline = () => {
    
         
         <ListItem>
-          Python 커리큘럼 중 numpy
+          Python 커리큘럼 중 numpy에 관한 강의자료
         </ListItem>
-        <WorkImage src="/images/5tudy/sampleCurriculumOverview.png" alt="sampleCurriculumOverview" />
+        <WorkImage src="/images/5tudy/sampleCurriculum_python_numpy.png" alt="sampleCurriculumPython" />
    
         
 
