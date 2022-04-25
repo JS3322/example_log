@@ -17,7 +17,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >  
-        PM 업무 이후 개발자로 부족한 면을 많이 느끼고, IT서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
+        PM 업무에서 지식의 부족함을 느끼고, IT서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
       </Box>
 
         <Box display={{md:'flex'}}>
@@ -40,14 +40,14 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        <SimpleGrid columns={[2, 4, 5]} gap={6}>
+        <SimpleGrid columns={[4, 6, 8]} gap={6}>
 
-          {/* <GridItem
+          <GridItem
             href="https://www.instagram.com/cleancode_js/"
             title="Cooking Instagram"
             thumbnail={thumbInstagramCook}
           >
-          </GridItem> */}
+          </GridItem>
           <GridItem
             href="https://github.com/js3322"
             title="Develop Github"
@@ -64,11 +64,11 @@ const Home = () => (
         </Heading>
           <BioSection>
             <BioYear>2018</BioYear>
-              비인지진단 개발팀장
+              GRIT 비인지진단 개발팀장
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-              XR컨텐츠개발 PM
+              옵티마이즈컨설팅 모바일컨텐츠개발 대표이사
           </BioSection>
       </Section>
 
