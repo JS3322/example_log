@@ -19,13 +19,13 @@ const lectureOutline = () => {
         <ListItem>
           C++ 커리큘럼 다형성 중 다이나믹 캐스트에 관한 강의자료
         </ListItem>
-        <WorkImage src="/images/5tudy/sampleCurriculum_cpp_dynamicCast.png" alt="sampleCurriculumOverview" />
+        <WorkImage src="/images/5tudy/sampleCurriculum_cpp_dynamicCast.png" alt="sampleCurriculumCpp" />
    
         
         <ListItem>
           Java 커리큘럼 중 리플렉션에 관한 강의자료
         </ListItem>
-        <WorkImage src="/images/5tudy/sampleCurriculum_java_reflection.png" alt="sampleCurriculumOverview" />
+        <WorkImage src="/images/5tudy/sampleCurriculum_java_reflection.png" alt="sampleCurriculumJava" />
    
         
         <ListItem>
