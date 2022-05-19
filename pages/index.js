@@ -70,10 +70,10 @@ const Home = () => (
             <BioYear>2020</BioYear>
               옵티마이즈컨설팅 대표이사 모바일컨텐츠개발
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2022</BioYear>
               휴먼교육센터 교사 웹프로그래밍교육
-          </BioSection>
+          </BioSection> */}
       </Section>
 
             <Section delay={0.8}>
