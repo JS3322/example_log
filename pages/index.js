@@ -17,7 +17,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >  
-        PM 업무에서 지식의 부족함을 느끼고, IT서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
+        IT서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
       </Box>
 
         <Box display={{md:'flex'}}>
