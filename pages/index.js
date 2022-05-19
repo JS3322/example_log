@@ -40,7 +40,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        <SimpleGrid columns={[4, 6, 8]} gap={6}>
+        <SimpleGrid columns={[4, 6, 6]} gap={6}>
 
           <GridItem
             href="https://www.instagram.com/cleancode_js/"
@@ -64,11 +64,15 @@ const Home = () => (
         </Heading>
           <BioSection>
             <BioYear>2018</BioYear>
-              GRIT 비인지진단 개발팀장
+              GRIT 개발팀장 비인지진단개발
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-              옵티마이즈컨설팅 모바일컨텐츠개발 대표이사
+              옵티마이즈컨설팅 대표이사 모바일컨텐츠개발
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+              휴먼교육센터 교사 웹프로그래밍교육
           </BioSection>
       </Section>
 
