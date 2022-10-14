@@ -1,6 +1,10 @@
 const API_KEY = process.env.API_KEY;
 
 module.exports = {
+  images: {
+    loader: 'imgix',
+    path: 'https://github.com/JS3322/project_homepage',
+  },
   reactStrictMode: true,
   swcMinify: true,
   async rewrites() {
