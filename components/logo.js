@@ -31,7 +31,8 @@ const Logo = () => {
           <Image 
             src={cleancodePrintImg} 
             width={20} height={20} 
-            alt="logo" 
+            alt="logo"
+            unoptimized={true}
           />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
