@@ -7,6 +7,7 @@ import { GridItem } from '../components/grid-item'
 import thumbInstagramCook from '../public/images/links/instagramCook.png'
 import thumbGithubCode from '../public/images/links/githubCode.png'
 import thumbYoutubeLogo from '../public/images/links/youtubeLogo.png'
+import React from "react";
 
 const Home = () => (
     <Layout>
@@ -26,15 +27,16 @@ const Home = () => (
                     <Heading as="h2" variant="page-title">
                     Developer JS
                     </Heading>
-                    
+
                 </Box>
+
                 <Box
                   flexShrink={0}
                   mt={{ base: 4, md: 0 }}
                   ml={{ md: 6 }}
                   textAlign="center"
                 >
-            </Box>
+                </Box>
         </Box>
 
         <Section delay={0.3}>

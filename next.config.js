@@ -1,4 +1,5 @@
 const API_KEY = process.env.API_KEY;
+// const JAVASCRIPT_KAKAO_KEY = process.env.JAVASCRIPT_KAKAO_KEY;
 
 module.exports = {
   images: {

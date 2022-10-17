@@ -48,6 +48,8 @@ const Navbar = props => {
       zIndex={1}
       {...props}
     >
+
+
       <Container
         display="flex"
         p={2}
@@ -80,8 +82,8 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          <ThemeToggleButton />
 
+          <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
@@ -100,7 +102,7 @@ const Navbar = props => {
                 <NextLink href="/5tudy" passHref>
                   <MenuItem as={Link}>5tudy</MenuItem>
                 </NextLink>
-                
+
               </MenuList>
             </Menu>
           </Box>

@@ -24,7 +24,6 @@ const Main = ({ children, router }) => {
         <meta property="og:type" content="website" />
         <title>JS Homepage</title>
       </Head>
-
       <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>

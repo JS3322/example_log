@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import {Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -11,13 +11,20 @@ import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagn
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
 import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
 import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
+import KakaoChat from "../lib/KakaoChat";
+import React from "react";
 
 const Works = () => (
   <Layout title="Works">
     <Container>
+      <Section>
+        <KakaoChat/>
+      </Section>
+
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
+
 
       <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
