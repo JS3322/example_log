@@ -62,15 +62,15 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        리포팅 PDF 출력 모듈 개발. DB View로 연산에 필요한 데이터 출력관리 및 계산에 필요한 데이터인 기존 BufferedReader에서 StringTokenizer를 통해 문자열 교체방식으로 문서 데이터 출력 및 비동기와 chart.js를 통해 리소스를 고려하여 그래프 출력.
+        리포팅 PDF 출력 모듈 개발. DB View로 연산에 필요한 데이터 출력관리 및 계산에 필요한 데이터를 문자열 교체방식으로 변경하여 최적화하고 비동기, chart.js 튜닝하여 그래프 출력.
         </ListItem>
 
         <ListItem>
-        결제, 쿠폰, SMS, EMAIL 안내 모듈 개발. 기존 솔루션을 유지하도록 인터페이스 구성하고 추상 팩토리 기법으로 쿠폰 및 결제사양을 적용하여 여러 시스템 구현.
+        결제, 쿠폰, SMS, EMAIL 안내 모듈 개발 및 기존 솔루션을 유지하도록 인터페이스 다수 작업하여 코드 개선.
         </ListItem>
 
         <ListItem>
-        트래픽 분산. 동시 접속에 대해 대처를 위해 RR으로 tomcat worker에 로드밸런싱 튜닝으로 서버 죽는 현상, 데이터 트레픽 이슈 대응.
+        트래픽 분산. 동시 접속에 대해 모니터링 개발 및 tomcat worker에 로드밸런싱 튜닝으로 서버 죽는 현상, 데이터 트레픽 이슈 대응.
         </ListItem>
 
       </UnorderedList>

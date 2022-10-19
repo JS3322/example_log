@@ -11,15 +11,11 @@ import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagn
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
 import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
 import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
-import KakaoChat from "../lib/KakaoChat";
 import React from "react";
 
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Section>
-        <KakaoChat/>
-      </Section>
 
       <Heading as="h3" fontSize={20} mb={4}>
         Works
@@ -50,7 +46,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
 
       <Section delay={0.6}>
-          <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="컨텐츠 관리">
+          <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">
             XR 컨텐츠 웹관리 솔루션
           </WorkGridItem>
         </Section>
@@ -62,8 +58,8 @@ const Works = () => (
         </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="2020_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2020Noncognitive} title="비인지진단 모바일">
-            비인지 진단 모바일 UI와 API 개발 및 환경구성
+          <WorkGridItem id="2020_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2020Noncognitive} title="모바일 진단시스템 컨설팅">
+            비인지 진단 모바일 UX과 머신러닝 튜닝
           </WorkGridItem>
         </Section>
 
