@@ -75,11 +75,6 @@ const Work = () => (
           SendRequest 요청내용에 따른 크롤링 데이터 수집 프로그램 보수 작업과 전처리 후 MSSQL 저장 시스템 구현.
         </ListItem>
 
-        <ListItem>
-          NCS 웹, 앱개발 강의를 진행하며 상담 시스템과 모듈단위 웹시험 시스템 구축 및 운용.
-          학생의 피드백을 효율적으로 받기 위해 상담 내용을 쪽지 형식의 채팅과 카카오톡 채팅 연동 솔루션 구축과 서버 시간에 맞춰 시험지 오픈과 답안 상대적 비교 채점 도우미 시스템을 구축.
-        </ListItem>
-
       </UnorderedList>
       
       <WorkImage src="/images/works/2021_XrContentsManagement_contents_0001.png" alt="2021_XrContentsManagement" />
