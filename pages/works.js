@@ -1,4 +1,4 @@
-import {Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
+import {Container, Heading, SimpleGrid, Divider, UnorderedList, Badge} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -18,16 +18,59 @@ const Works = () => (
     <Container>
 
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Skill Stack
       </Heading>
 
 
-      <SimpleGrid columns={[1, 2, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 1]} gap={6}>
 
       <Section delay={0.2}>
-          <WorkGridItem id="2022_Worket" thumbnail={thumb2022Worket} title="데이터 저장, 분석 시스템 구현">
-            데이터 가치에 대한 테스트
-          </WorkGridItem>
+        <UnorderedList>
+
+          <Badge colorScheme="telegram" fontSize={18} mr={2}>
+            페이지 디자인
+          </Badge>
+          <br/>
+          <span><b>대표 프로젝트</b> : 비인지진단 케어프로그램</span>
+          <br/>
+          <span>- 정신건강 케어프로그램에서 컨텐츠 디자인 기획과 구현 (used Flutter)</span>
+          <br/>
+          <span>- 결과 리포트 디자인 및 pdf 대량 자동인쇄 시스템 개발 (used Spring, JSP)</span>
+          <br/>
+          <span>- 3D디자인 외 홍보페이지 다수 작성 (used React.js, Three.js)</span>
+          <br/>
+          <span>- 데이터 시각화 모듈 개발 (used Dash)</span>
+          <br/>
+          <br/>
+
+          <Badge colorScheme="telegram" fontSize={18} mr={2}>
+            클라우드 기반 인프라
+          </Badge>
+          <br/>
+          <span><b>대표 프로젝트</b> : 서울대학교 청소년 가상학교 | 영상 모듈 동기화 API</span>
+          <br/>
+          <span>- 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용 (used Django, Spring boot)</span>
+          <br/>
+          <span>- bastion서버 로드밸런싱과 스케일아웃 시스템 구성 및 트레이싱 모듈 개발 (used AWS, GKE, OCI)</span>
+          <br/>
+          <span>- 모듈 레이턴시 동기화 관리 API 개발 (used Spring)</span>
+          <br/>
+          <br/>
+
+
+          <Badge colorScheme="telegram" fontSize={18} mr={2}>
+            데이터기반 솔루션
+          </Badge>
+          <br/>
+          <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇</span>
+          <br/>
+          <span>- 연세세브란스병원 실시간 가중치 연산 시스템을 머신러닝 기반 비인지진단 카테고리화 모듈 개발 (used PyTorch, Logstash)</span>
+          <br/>
+          <span>- 크롤링 및 데이터 전처리 모듈 개발과 비드봇 알고리즘 튜닝 (used selenium, MSSQL)</span>
+          <br/>
+          <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
+
+        </UnorderedList>
         </Section>
 
       
@@ -38,12 +81,18 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Close Project
+          Project History
         </Heading>
         
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
+
+        <Section delay={0.4}>
+          <WorkGridItem id="2022_Worket" thumbnail={thumb2022Worket} title="분석 모듈 구현">
+            분석과 그래프 모듈 개발
+          </WorkGridItem>
+        </Section>
 
       <Section delay={0.6}>
           <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">
