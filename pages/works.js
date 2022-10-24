@@ -51,7 +51,7 @@ const Works = () => (
           <br/>
           <span>- 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용 (used Django, Spring boot)</span>
           <br/>
-          <span>- bastion서버 로드밸런싱과 스케일아웃 시스템 구성 및 트레이싱 모듈 개발 (used AWS, GKE, OCI)</span>
+          <span>- bastion서버 로드밸런싱, 스케일아웃 시스템 구성 및 쿠버네티스 트레이싱 모듈 개발 (used AWS, GKE, OCI)</span>
           <br/>
           <span>- 모듈 레이턴시 동기화 관리 API 개발 (used Spring)</span>
           <br/>
@@ -66,7 +66,7 @@ const Works = () => (
           <br/>
           <span>- 연세세브란스병원 실시간 가중치 연산 시스템을 머신러닝 기반 비인지진단 카테고리화 모듈 개발 (used PyTorch, Logstash)</span>
           <br/>
-          <span>- 크롤링 및 데이터 전처리 모듈 개발과 비드봇 알고리즘 튜닝 (used selenium, MSSQL)</span>
+          <span>- 크롤링 및 데이터 전처리와 비드봇 알고리즘 튜닝 (used selenium, MSSQL)</span>
           <br/>
           <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
 
