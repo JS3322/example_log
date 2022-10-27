@@ -66,7 +66,7 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          데이터 통계 시스템 구현. Python dash 라이브러리를 react로 커스텀하여 그래프 출력. 오버샘플링과 가중치 조절로 부족한 데이터 전처리 병행.
+          데이터 통계 시스템 구현. Python dash 라이브러리 시각그래프 출력. 오버샘플링과 가중치 조절로 부족한 데이터 전처리 병행.
         </ListItem>
 
         <ListItem>
