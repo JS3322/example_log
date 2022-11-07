@@ -85,11 +85,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-      {/*<Section delay={0.6}>*/}
-      {/*    <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">*/}
-      {/*      XR 컨텐츠 웹관리 솔루션*/}
-      {/*    </WorkGridItem>*/}
-      {/*  </Section>*/}
+
 
         <Section delay={0.6}>
           <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
