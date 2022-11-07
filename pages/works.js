@@ -81,7 +81,7 @@ const Works = () => (
 
         <Section delay={0.4}>
           <WorkGridItem id="2022_Worket" thumbnail={thumb2022Worket} title="분석 모듈 구현">
-            분석과 그래프 모듈 개발
+            [진행] 분석 모듈 개발
           </WorkGridItem>
         </Section>
 

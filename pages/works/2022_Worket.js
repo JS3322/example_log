@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="2022 Worket">
     <Container>
       <Title>
-      데이터 저장, 분석 시스템 구현 <Badge>2022</Badge>
+      [진행] 데이터 저장, 분석 시스템 구현 <Badge>2022</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>
