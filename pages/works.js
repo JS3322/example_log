@@ -10,7 +10,7 @@ import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_cont
 import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png'
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
 import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
-import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
+// import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 import React from "react";
 
 const Works = () => (
@@ -85,7 +85,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-
+        {/*<Section delay={0.6}>*/}
+        {/*    <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">*/}
+        {/*      XR 컨텐츠 웹관리 솔루션*/}
+        {/*    </WorkGridItem>*/}
+        {/*  </Section>*/}
 
         <Section delay={0.6}>
           <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
