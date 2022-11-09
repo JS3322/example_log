@@ -80,7 +80,7 @@ const Home = () => (
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-              휴먼교육센터 강사 웹프로그래밍교육
+              프리랜서 백엔드|강사 웹프로그래밍
           </BioSection>
       </Section>
 
