@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Container, Divider, Heading, Text} from "@chakra-ui/react";
+import {Container, Divider, Heading} from "@chakra-ui/react";
 
 function Background() {
     useEffect(() => {
