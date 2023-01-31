@@ -15,10 +15,10 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2021 XR Contents Management">
+  <Layout title="2022 XR Contents Management">
     <Container>
       <Title>
-        영상 동기화 컨텐츠 관리 <Badge>2021</Badge>
+        영상 동기화 컨텐츠 관리 <Badge>2022</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>

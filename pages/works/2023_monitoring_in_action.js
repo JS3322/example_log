@@ -15,7 +15,7 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2022 Worket">
+  <Layout title="2023 Monitoring in action">
     <Container>
       <Title>
       [진행] 모니터링 데이터기반 분석 시스템 Open Source <Badge>2023</Badge>
@@ -71,9 +71,7 @@ const Work = () => (
 
       </UnorderedList>
       
-      <WorkImage src="/images/works/2022_Worket_contents_0001.png" alt="2022_Worket" />
-      <WorkImage src="/images/works/2022_Worket_contents_0002.png" alt="2022_Worket" />
-      
+      <WorkImage src="/images/works/2023_monitoring_in_action_diagram_20230131.png" alt="2023_monitoring_in_action_diagram" />
     </Container>
   </Layout>
 )

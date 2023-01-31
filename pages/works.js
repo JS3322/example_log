@@ -9,8 +9,8 @@ import thumb2019Hyundai from '../public/images/works/2019_HyundaiMotorsMindTrave
 import thumb2020School from '../public/images/works/2020_SeoulVirtualSchool_contents_0001.png'
 import thumb2020Noncognitive from '../public/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png'
 import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents_0001.png'
-import thumb2022Worket from '../public/images/works/2022_Worket_contents_0001.png'
-// import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
+import thumb2023Monitorin from '../public/images/works/2023_monitoring_in_action_diagram_20230131.png'
+import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 import React from "react";
 
 const Works = () => (
@@ -80,16 +80,16 @@ const Works = () => (
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
 
         <Section delay={0.4}>
-          <WorkGridItem id="2022_Worket" thumbnail={thumb2022Worket} title="분석 모듈 구현">
+          <WorkGridItem id="2023_monitoring_in_action" thumbnail={thumb2023Monitorin} title="분석 모듈 구현">
             [진행] 분석 모듈 개발
           </WorkGridItem>
         </Section>
 
-        {/*<Section delay={0.6}>*/}
-        {/*    <WorkGridItem id="2021_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">*/}
-        {/*      XR 컨텐츠 웹관리 솔루션*/}
-        {/*    </WorkGridItem>*/}
-        {/*  </Section>*/}
+        <Section delay={0.6}>
+            <WorkGridItem id="2022_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">
+              XR 컨텐츠 웹관리 솔루션
+            </WorkGridItem>
+          </Section>
 
         <Section delay={0.6}>
           <WorkGridItem id="2021_MyHomePage" thumbnail={thumb2021MyHomePage} title="홈페이지 만들기">
