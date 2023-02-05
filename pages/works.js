@@ -95,8 +95,8 @@ const Works = () => (
           </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="2021_analysis_system_proposal" thumbnail={thumb2021_analysis_system} title="분석시스템 기획">
-            텍스트 기반 분석시스템 기획
+          <WorkGridItem id="2021_analysis_system_proposal" thumbnail={thumb2021_analysis_system} title="금융대출 분석시스템 기획">
+            텍스트 서류 기반 금융 분석시스템 기획
           </WorkGridItem>
         </Section>
 
