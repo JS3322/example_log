@@ -1,18 +1,13 @@
 import {
   Container,
   Badge,
-  List,
   ListItem,
   UnorderedList,
   Heading,
-  Center,
-  Button,
-  Box
+  Center
 } from '@chakra-ui/react'
-import NextLink from 'next/link'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
-import { Title, Meta, WorkImage } from '../../components/work'
+import { Title, WorkImage } from '../../components/work'
 
 const Work = () => (
   <Layout title="2021 Analysis system Proposal">
