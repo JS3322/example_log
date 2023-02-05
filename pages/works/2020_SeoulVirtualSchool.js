@@ -17,7 +17,7 @@ const Work = () => (
   <Layout title="2020 서울대학교 모바일가상학교 통합관리시스템">
     <Container>
       <Title>
-      서울대학교 모바일가상학교 통합관리시스템 <Badge>2020</Badge>
+      서울대학교 모바일 가상학교 통합관리시스템 <Badge>2020</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>

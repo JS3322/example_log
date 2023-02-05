@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="2020 비인지진단 모바일앱">
     <Container>
       <Title>
-        모바일 진단시스템 컨설팅과 프로토타입 <Badge>2020</Badge>
+        모바일 진단시스템 컨설팅<Badge>2020</Badge>
       </Title>
       
       <Heading as="h4" fontSize={16} my={6}>
@@ -27,7 +27,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        비인지 진단 fultter UI 개발과 API 구조 기획과 개발 및 환경구성
+        비인지 진단 flutter UI 개발과 API 구조 기획과 개발 및 환경구성
         </ListItem>
       </UnorderedList>
       
@@ -79,7 +79,8 @@ const Work = () => (
 
 
       </UnorderedList>
-
+      <WorkImage src="/images/works/2020_NoncognitiveDiagnosisMobileApp_plan_0001.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
+      <WorkImage src="/images/works/2020_NoncognitiveDiagnosisMobileApp_plan_0002.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
       <WorkImage src="/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0001.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
       <WorkImage src="/images/works/2020_NoncognitiveDiagnosisMobileApp_contents_0002.png" alt="2021_NoncognitiveDiagnosisMobileApp" />
       

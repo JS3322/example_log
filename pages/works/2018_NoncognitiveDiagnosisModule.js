@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="2018 비인지 진단 웹서비스 모듈">
     <Container>
       <Title>
-      비인지 진단 웹서비스 모듈 개발<Badge>2018</Badge>
+      온라인 진단 서비스 모듈 개발<Badge>2018</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>

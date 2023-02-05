@@ -1,5 +1,5 @@
 {
-  "name": "project_homepage",
+  "name": "project_log",
   "version": "1.0.0",
   "description": "js",
   "scripts": {
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JS3322/project_homepage.git"
+    "url": "git+https://github.com/JS3322/project_log.git"
   },
   "keywords": [],
   "author": "JS<js@cleancode.kr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JS3322/project_homepage/issues"
+    "url": "https://github.com/JS3322/project_log/issues"
   },
-  "homepage": "https://github.com/JS3322/project_homepage#readme",
+  "homepage": "https://github.com/JS3322/project_log#readme",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.7.2",

@@ -48,7 +48,7 @@ const Work = () => (
         ml={{ md: 6 }}
         textAlign="center"
       >
-      <NextLink href="https://cleancode.kr">
+      <NextLink href="https://log.cleancode.kr">
         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
           Service Link
         </Button>
