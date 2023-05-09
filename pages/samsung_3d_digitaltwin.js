@@ -6,7 +6,7 @@ function Background() {
         const timeout = setTimeout(() => {
             // 👇️ redirects to an external URL
             window.location.replace('https://docs.google.com/spreadsheets/d/1-x8WeFsNK4ki96WoSNwx-hsstl1qOkMy');
-        }, 3000);
+        }, 1000);
 
         return () => clearTimeout(timeout);
     }, []);
