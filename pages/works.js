@@ -12,6 +12,7 @@ import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents
 import thumb2021_analysis_system from '../public/images/works/2021_analysis_system_proposal_main.png'
 import thumb2023Monitorin from '../public/images/works/2023_monitoring_in_action_diagram_20230131.png'
 import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
+import thumb2023Stereo from '../public/images/works/2023_Stereo_vision_with_ITS_System_PM.png'
 import React from "react";
 
 const Works = () => (
@@ -34,7 +35,7 @@ const Works = () => (
           <br/>
           <span><b>대표 프로젝트</b> : 서울대학교 청소년 가상학교 | 비인지진단 케어프로그램</span>
           <br/>
-          <span>- 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용 (used Django, Spring boot)</span>
+          <span>- 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용 (used Django, Spring boot, GCP 하이브리드, Kafka Streams)</span>
           <br/>
           <span>- 정신건강 케어프로그램 컨텐츠 기획과 구현 (used Spring)</span>
           <br/>
@@ -52,7 +53,7 @@ const Works = () => (
             데이터 분석
           </Badge>
           <br/>
-          <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇</span>
+          <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성전자 스마트교차로</span>
           <br/>
           <span>- 연세세브란스병원의 정신건강의학 실시간 가중치 연산 알고리즘과 통계출력 sql튜닝 및 머신러닝 기반 비인지진단 카테고리화 모듈 개발 (used PyTorch, Logstash)</span>
           <br/>
@@ -60,7 +61,9 @@ const Works = () => (
           <br/>
           <span>- 보고서용 통계데이터 시각화 모듈 개발 (used Dash, React.js, flask)</span>
           <br/>
-          <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
+          <span>- 고덕 삼성전자 인공지능 스마트교차로 구축 및 관련 특허 출원 (도로기반 스테레오 비전 객체 탐지 기술)</span>
+          <br/>
+          <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서, 조달청 우수제품(GS인증)과 관련 특허 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
           <br/>
 
 
@@ -81,6 +84,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
+
+        <Section delay={0.4}>
+          <WorkGridItem id="2023_stereo_vision" thumbnail={thumb2023Stereo} title="도로기반 스테레오 비전">
+            도로기반 스테레오 비전
+          </WorkGridItem>
+        </Section>
 
         <Section delay={0.4}>
           <WorkGridItem id="2023_monitoring_in_action" thumbnail={thumb2023Monitorin} title="분석 모듈 구현">
