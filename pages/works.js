@@ -12,7 +12,7 @@ import thumb2021MyHomePage from '../public/images/works/2021_MyHomePage_contents
 import thumb2021_analysis_system from '../public/images/works/2021_analysis_system_proposal_main.png'
 import thumb2023Monitorin from '../public/images/works/2023_monitoring_in_action_diagram_20230131.png'
 import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
-import thumb2023Stereo from '../public/images/works/2023_Stereo_vision_with_ITS_System_PM.png'
+import thumb2023Stereo from '../public/images/works/2023_Stereo_vision_with_ITS_System_GS.png'
 import React from "react";
 
 const Works = () => (

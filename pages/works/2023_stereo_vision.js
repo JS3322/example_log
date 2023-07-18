@@ -48,9 +48,9 @@ const Work = () => (
         ml={{ md: 6 }}
         textAlign="center"
       >
-      <NextLink href="https://github.com/JS3322/monitoring_in_action.git">
+      <NextLink href="https://youtu.be/IFyTUxe2Yek">
         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-          Source Link
+          Youtube Link
         </Button>
       </NextLink>
       </Box>
@@ -96,6 +96,8 @@ const Work = () => (
       </UnorderedList>
       
       <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_PM.png" alt="2023_Stereo_vision_with_ITS_System" />
+      <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_WEB.png" alt="2023_Stereo_vision_with_ITS_System" />
+      <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_GS.png" alt="2023_Stereo_vision_with_ITS_System" />
     </Container>
   </Layout>
 )
