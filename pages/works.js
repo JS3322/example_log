@@ -41,7 +41,7 @@ const Works = () => (
           <br/>
           <span>- 통계결과 리포트 디자인 및 pdf 대량 자동인쇄 시스템 개발 (used Spring, JSP)</span>
           <br/>
-          <span>- 컨텐츠 데이터 3D모델링 외 홍보페이지 다수 작성 (used Go, React.js, Three.js)</span>
+          <span>- 컨텐츠 3D모델링 외 영업 홍보페이지 다수 작성 (used React.js, Three.js, Unity)</span>
           <br/>
           <span>- 트래픽 bastion서버 로드밸런싱, 스케일아웃 시스템 구성 및 쿠버네티스 트레이싱 모듈 개발 (used AWS, GKE, OCI, Go)</span>
           <br/>
@@ -50,7 +50,7 @@ const Works = () => (
           <br/>
 
           <Badge colorScheme="telegram" fontSize={18} mr={2}>
-            데이터 분석
+            데이터 아이템
           </Badge>
           <br/>
           <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성전자 스마트교차로</span>
@@ -63,7 +63,7 @@ const Works = () => (
           <br/>
           <span>- 고덕 삼성전자 인공지능 스마트교차로 구축 및 관련 특허 출원 (도로기반 스테레오 비전 객체 탐지 기술)</span>
           <br/>
-          <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서, 조달청 우수제품(GS인증)과 관련 특허 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
+          <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서, 조달청 우수제품 관련 특허 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
           <br/>
 
 
@@ -86,8 +86,8 @@ const Works = () => (
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
 
         <Section delay={0.4}>
-          <WorkGridItem id="2023_stereo_vision" thumbnail={thumb2023Stereo} title="도로기반 스테레오 비전">
-            도로기반 스테레오 비전
+          <WorkGridItem id="2023_stereo_vision" thumbnail={thumb2023Stereo} title="도로기반 자율주행">
+            스테레오 비전 시스템
           </WorkGridItem>
         </Section>
 
@@ -98,13 +98,13 @@ const Works = () => (
         </Section>
 
         <Section delay={0.6}>
-            <WorkGridItem id="2022_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 컨텐츠 관리">
+            <WorkGridItem id="2022_XrContentsManagement" thumbnail={thumb2022Xr} title="영상 동기화 관리">
               XR 컨텐츠 웹관리 솔루션
             </WorkGridItem>
           </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="2021_analysis_system_proposal" thumbnail={thumb2021_analysis_system} title="금융모델 온라인 적합분석 기획">
+          <WorkGridItem id="2021_analysis_system_proposal" thumbnail={thumb2021_analysis_system} title="금융모델 분석 기획">
             소셜네트워크 데이터 기반 금융모델 온라인 분석시스템 기획
           </WorkGridItem>
         </Section>
@@ -116,7 +116,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="2020_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2020Noncognitive} title="모바일 진단시스템 컨설팅">
+          <WorkGridItem id="2020_NoncognitiveDiagnosisMobileApp" thumbnail={thumb2020Noncognitive} title="모바일 진단시스템">
             비인지 진단 모바일 UX과 머신러닝 튜닝
           </WorkGridItem>
         </Section>

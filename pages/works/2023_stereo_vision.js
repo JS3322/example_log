@@ -27,18 +27,18 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        수집 된 데이터 분석 기반 관리시스템 구현
+        스테레오 비전 CCTV 딥러닝 영상분석 기반 ITS 시스템 개발
         </ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Go1.19 | JavascriptEC6 | python3.9 | Springboot3.0 | CSS3 | Next.js</span>
+          <span>Java17 | JavascriptEC6 | python3.9 | Springboot3.1 | CSS3 | Unity2022</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>Xpand | MariaDB | OCI | Docker-Swarm | REST API | Traefik | Illustrator | Pandas | Kafka</span>
+          <span>PostgreSQL14.2 | Ubuntu18.04 | Docker | REST API | YOLOv8 | Illustrator | Pandas | Kafka Streams</span>
         </ListItem>
       </List>
 
@@ -66,11 +66,12 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          메세지 미들웨어 개발 및 튜닝(다수 교차로 분석 데이터 순차관리) : use KAFKA Streams, mqtt mosquitto
+          메세지 미들웨어 개발(다수 교차로 분석 데이터 순차관리)과 자원(프로세스 쓰레드 관리) 및 메모리 핀 튜닝 : use KAFKA Streams, mqtt mosquitto과 모니터링
+
         </ListItem>
 
         <ListItem>
-          버스 객체 탐지 및 좌회전/우회전/직진 카운팅 프로그램 개발 및 좌표 보정 시스템 구축 : use YOLOv8, SAM, 표준편차/중앙값 기반 보정 모듈
+          버스 객체 탐지 및 좌회전/우회전/직진 카운팅 프로그램 개발 및 좌표 보정 시스템 구축 : use YOLOv8, SAM 기반 CCTV 화각, 각도에 따른 트래커 좌표 변동에 편차/중앙값 기반 보정
         </ListItem>
 
         <ListItem>
@@ -90,7 +91,7 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          고덕 삼성전자 스마트교차로 / 디지털트윈 개발 PM 및 GS인증 / 조달우수 / 우수성능(판매실적) 아이템 개발관리 : 제품 기획 및 영업문서 작성과 공사/외주/프로젝트 관리
+          고덕 삼성전자 스마트교차로 / 디지털트윈 개발 PM 및 조달우수 / 우수성능(판매실적) 아이템 개발관리 : 제품 기획 및 영업문서 작성과 공사/외주/프로젝트 관리
         </ListItem>
 
       </UnorderedList>
@@ -98,6 +99,7 @@ const Work = () => (
       <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_PM.png" alt="2023_Stereo_vision_with_ITS_System" />
       <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_WEB.png" alt="2023_Stereo_vision_with_ITS_System" />
       <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_GS.png" alt="2023_Stereo_vision_with_ITS_System" />
+      <WorkImage src="/images/works/2023_Stereo_vision_with_ITS_System_Position.png" alt="2023_Stereo_vision_with_ITS_System" />
     </Container>
   </Layout>
 )
