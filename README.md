@@ -12,7 +12,7 @@ HomePage
 - [x] dark theme
 - [x] animate the toggle
 - [x] use three.js | components
-- [ ] babylon.js and three.js comparison test
+- [X] babylon.js and three.js comparison test
 - [x] Connect API Server
 - [ ] web component migration
 - [x] make less than 3mb glb | public
@@ -36,7 +36,7 @@ HomePage
 
 ---
 ### Stay in touch
-- Developer - [JS](https://cleancode.kr)
+- Developer - [JS](https://log.cleancode.kr)
 
 ---
 ### License
@@ -45,6 +45,7 @@ HomePage
 ---
 ### code start
 - next 
+  - github 코드 업로드 이후 domain에서 vercel에서 리다이랙트로 연결
 
 ---
 *name : JS3322  
