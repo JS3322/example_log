@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="2023 Monitoring in action">
     <Container>
       <Title>
-      [진행] 모니터링 데이터기반 분석 시스템 Open Source <Badge>2023</Badge>
+      모니터링 데이터기반 하이브리드 클라우드 관리 시스템 <Badge>2023</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>
@@ -34,11 +34,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Go1.19 | JavascriptEC6 | python3.9 | Springboot3.0 | CSS3 | Next.js</span>
+          <span>Kotlin | JavascriptEC6 | python3.9 | Springboot3.12 | Vue3</span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
-          <span>Xpand | MariaDB | OCI | Docker-Swarm | REST API | Traefik | Illustrator | Pandas | Kafka</span>
+          <span>Kubernetes | Rancher | Prometheus | Grafana | MongoDB | OCI | Docker-Swarm | REST API | Traefik | Pandas | Kafka</span>
         </ListItem>
       </List>
 
@@ -66,7 +66,15 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          데이터 통계 모델링 구축. Log데이터 기반으로 Docker-Swarm 및 DB서버 샤딩 로드밸런싱 구축.
+          개발용도 데이터 통계 모델링 구축. Log데이터 기반으로 Docker-Swarm 및 DB서버 샤딩 로드밸런싱 구축.
+        </ListItem>
+
+        <ListItem>
+          삼성SDS 하이브리드 클라우드 데이터 아키텍처 구성 및 과제문서 작성. Prometheus와 Grafana 기반 Log데이터로 Kubernetes의 Rancher 관리 시스템 개발.
+        </ListItem>
+
+        <ListItem>
+          MongoDB 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝
         </ListItem>
 
       </UnorderedList>
