@@ -33,7 +33,7 @@ const Works = () => (
             백엔드
           </Badge>
           <br/>
-          <span><b>대표 프로젝트</b> : 서울대학교 청소년 가상학교 | 비인지진단 케어프로그램</span>
+          <span><b>대표 프로젝트</b> : 삼성DS 하이브리드 클라우드 | 서울대학교 청소년 가상학교 | 비인지진단 케어프로그램</span>
           <br/>
           <span>- 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용 (used Django, Spring boot, GCP 하이브리드, Kafka Streams)</span>
           <br/>
