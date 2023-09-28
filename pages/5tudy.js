@@ -12,6 +12,7 @@ import thumb20220119 from '../public/images/5tudy/20220119.png'
 import thumb20220120 from '../public/images/5tudy/20220120.png'
 import thumb20220121 from '../public/images/5tudy/20220121.png'
 import thumb20220125 from '../public/images/5tudy/20220125.png'
+import React from "react";
 
 const S5tudy = () => (
   <Layout title="5tudy">
@@ -50,7 +51,16 @@ const S5tudy = () => (
             thumbnail={issueDevelop}
             href="https://cleancode.shop/troubleshooting-develop"
           />
-          
+
+          <Section delay={1.0}>
+            <a href={"https://link.coupang.com/a/8vaRG"} target={"_blank"} referrerPolicy={"unsafe-url"} rel="noreferrer">
+              <img
+                  src="https://image6.coupangcdn.com/image/affiliate/banner/0fc800aaa5ccf8bff8ab0190df3833b1@2x.jpg"
+                  alt="제주삼다수 그린 생수, 2L, 12개" width="120" height="240"/>
+            </a>
+            <text>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+            </text>
+          </Section>
    
         </SimpleGrid>
       </Section>

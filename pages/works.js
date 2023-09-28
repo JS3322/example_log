@@ -146,16 +146,6 @@ const Works = () => (
             웹 채팅프로그램과 알고리즘, 배포환경과 같은 개발 기본 구성
           </WorkGridItem>
         </Section>
-
-        <Section delay={1.0}>
-            <a href={"https://link.coupang.com/a/8vaRG"} target={"_blank"} referrerPolicy={"unsafe-url"} rel="noreferrer">
-            <img
-                src="https://image6.coupangcdn.com/image/affiliate/banner/0fc800aaa5ccf8bff8ab0190df3833b1@2x.jpg"
-                alt="제주삼다수 그린 생수, 2L, 12개" width="120" height="240"/>
-            </a>
-            <text>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-            </text>
-        </Section>
         
       </SimpleGrid>
     </Container>
