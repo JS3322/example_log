@@ -47,7 +47,7 @@ const Works = () => (
           <br/>
           <span>- 영상출력 모듈 레이턴시 동기화 관리 API 개발 (used Spring)</span>
           <br/>
-          <span>- MongoDB 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝</span>
+          <span>- MongoDB/SpringBatch 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝</span>
           <br/>
           <br/>
 
