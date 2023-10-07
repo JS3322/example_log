@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import s5tudyCSS from '../public/styles/s5tudy.module.css'
 
+//API TEST
 export default function Check() {
   const [s5tudy, set5tudy] = useState();
   const router = useRouter();
