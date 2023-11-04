@@ -49,6 +49,8 @@ const Works = () => (
           <br/>
           <span>- MongoDB/SpringBatch 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝</span>
           <br/>
+          <span>- 삼성전자 클라우드 및 서버 비용 데이터 Open API 기획 및 개발</span>
+          <br/>
           <br/>
 
           <Badge colorScheme="telegram" fontSize={18} mr={2}>
