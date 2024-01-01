@@ -6,6 +6,7 @@ import { GridItem } from '../components/grid-item'
 import thumbInstagramCook from '../public/images/links/instagramCook.png'
 import thumbGithubCode from '../public/images/links/githubCode.png'
 import thumbYoutubeLogo from '../public/images/links/youtubeLogo.png'
+import thumbStudyLogo from '../public/images/links/studySiteFavicon.png'
 import React from "react";
 
 const Home = () => (
@@ -18,7 +19,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >  
-        IT서비스 디자인의 근본적인 부분부터 공부하고 있습니다!
+        탐구와 공감하는 삶의 방향에서 생각하는 시간을 즐기고 있습니다
       </Box>
 
         <Box display={{md:'flex'}}>
@@ -61,6 +62,12 @@ const Home = () => (
                 thumbnail={thumbInstagramCook}
             >
             </GridItem>
+            <GridItem
+                href="https://study.cleancode.kr"
+                title="Study Log"
+                thumbnail={thumbStudyLogo}
+            >
+            </GridItem>
 
         </SimpleGrid>
 
@@ -81,6 +88,10 @@ const Home = () => (
           <BioSection>
             <BioYear>2022</BioYear>
               프리랜서 백엔드|강사 웹프로그래밍
+          </BioSection>
+          <BioSection>
+              <BioYear>2024</BioYear>
+              클린코드 대표
           </BioSection>
       </Section>
 

@@ -13,6 +13,8 @@ import thumb2021_analysis_system from '../public/images/works/2021_analysis_syst
 import thumb2023Monitorin from '../public/images/works/2023_monitoring_in_action_diagram_20230131.png'
 import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 import thumb2023Stereo from '../public/images/works/2023_Stereo_vision_with_ITS_System_GS.png'
+import thumb2024HCMS from '../public/images/works/2024_hybrid_cloud_management_system_thumb.png'
+
 import React from "react";
 
 const Works = () => (
@@ -70,11 +72,8 @@ const Works = () => (
           <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서, 조달청 우수제품 관련 특허 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
           <br/>
 
-
         </UnorderedList>
         </Section>
-
-      
 
       </SimpleGrid>
 
@@ -88,6 +87,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
+
+        <Section delay={0.4}>
+          <WorkGridItem id="2024_hybrid_cloud_management_system" thumbnail={thumb2024HCMS} title="Hybrid Cloud 관리 시스템">
+            Hybrid Cloud 관리 시스템 개발
+          </WorkGridItem>
+        </Section>
 
         <Section delay={0.4}>
           <WorkGridItem id="2023_monitoring_in_action" thumbnail={thumb2023Monitorin} title="분석 모듈 구현">

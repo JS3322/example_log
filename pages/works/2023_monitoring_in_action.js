@@ -70,7 +70,7 @@ const Work = () => (
         </ListItem>
 
         <ListItem>
-          삼성DS 하이브리드 클라우드 데이터 아키텍처 구성 및 과제문서 작성. Prometheus와 Grafana 기반 Log데이터로 Kubernetes의 Rancher 관리 시스템 개발.
+          삼성DS 하이브리드 클라우드 데이터 아키텍처 구성 및 과제문서 작성. Prometheus 기반 Log데이터로 Kubernetes의 Rancher 관리 시스템 개발.
         </ListItem>
 
         <ListItem>
