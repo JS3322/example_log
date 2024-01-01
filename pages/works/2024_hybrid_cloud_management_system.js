@@ -9,10 +9,9 @@ import {
   Button,
   Box
 } from '@chakra-ui/react'
-import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
-import { Title, Meta, WorkImage } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 
 const Work = () => (
   <Layout title="2024 Hybrid Cloud Management System">
