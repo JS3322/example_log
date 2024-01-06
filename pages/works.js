@@ -56,7 +56,7 @@ const Works = () => (
           <br/>
 
           <Badge colorScheme="telegram" fontSize={18} mr={2}>
-            데이터 아이템
+            데이터
           </Badge>
           <br/>
           <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성전자 스마트교차로</span>
