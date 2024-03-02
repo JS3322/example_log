@@ -24,6 +24,27 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Skill Stack
       </Heading>
+      <Section delay={0.2}>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          데이터 분석
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          DB 튜닝
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          웹 백엔드
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          인공 지능
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          쿠버네티스
+        </Badge>
+      </Section>
+
+      <Heading as="h3" fontSize={20} mb={4}>
+        Work Experience
+      </Heading>
 
 
       <SimpleGrid columns={[1, 1, 1]} gap={6}>
