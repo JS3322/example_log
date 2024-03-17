@@ -34,6 +34,9 @@ const Works = () => (
         <Badge colorScheme="blue" fontSize={15} mr={2}>
           웹 백엔드
         </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          기획
+        </Badge>
       </Section>
 
       <Heading as="h3" fontSize={20} mb={4}>
