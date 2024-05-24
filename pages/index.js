@@ -79,19 +79,19 @@ const Home = () => (
         </Heading>
           <BioSection>
             <BioYear>2018</BioYear>
-              GRIT 개발팀장 데이터통계
+              GRIT 개발팀장 :: 데이터통계
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-              옵티마이즈컨설팅 대표이사 솔루션컨설팅
+              옵티마이즈컨설팅 대표이사 :: 데이터 기반 컨설팅
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-              프리랜서 백엔드|강사 웹프로그래밍
+              프리랜서 :: 백엔드 & 데이터 사이언티스트
           </BioSection>
           <BioSection>
               <BioYear>2024</BioYear>
-              클린코드 대표
+              클린코드 대표 :: 데이터 사이언티스트
           </BioSection>
       </Section>
 
