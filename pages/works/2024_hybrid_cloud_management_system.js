@@ -26,14 +26,14 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        하이브리드 클라우드 데이터를 수집(Batch)하고 관리하는 시스템
+        Public/private 클라우드 데이터(자원/비용정보)를 수집(Batch)하고 관리하는 시스템
         </ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>Java17 | JavascriptEC6 | python3.9 | Springboot3.1 | Spring Gateway | Spring Batch </span>
+          <span>Java17 | JavascriptEC6 | python3.10 | Springboot3.1 | Spring Gateway | Spring Batch </span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
@@ -62,7 +62,10 @@ const Work = () => (
           삼성DS HCMS 시스템 아키텍처 기획 및 구축 : 쿠버네티스 기반 MSA와 Batch 관리 시스템
         </ListItem>
         <ListItem>
-          삼성 서버 자원, 비용 관리 시스템 기획 및 개발 : 기간별/누적 지원, 비용 통계 시스템 구축
+          삼성전자 내 사용하는 Public/Private 클라우드 자원/비용 데이터 통계 시스템 구축 및 Kubernetes 시스템 관리와 Open API 기획/개발
+        </ListItem>
+        <ListItem>
+          MongoDB/SpringBatch 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝
         </ListItem>
 
       </UnorderedList>
