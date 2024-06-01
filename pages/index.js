@@ -91,7 +91,7 @@ const Home = () => (
           </BioSection>
           <BioSection>
               <BioYear>2024</BioYear>
-              클린코드 대표 :: 데이터 엔지니어
+              클린코드 대표 :: 데이터 사이언티스트
           </BioSection>
       </Section>
 
