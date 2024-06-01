@@ -87,11 +87,11 @@ const Home = () => (
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-              프리랜서 :: 백엔드 & 데이터 사이언티스트
+              프리랜서 :: 백엔드 & 데이터 엔지니어
           </BioSection>
           <BioSection>
               <BioYear>2024</BioYear>
-              클린코드 대표 :: 데이터 사이언티스트
+              클린코드 대표 :: 데이터 엔지니어
           </BioSection>
       </Section>
 
