@@ -26,7 +26,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-        Public/private 클라우드 데이터(자원/비용정보)를 수집(Batch)하고 관리하는 시스템
+          클라우드 7만개 리소스 데이터 수집/정제/통계와 100억 비용정보 관리하는 시스템
         </ListItem>
       </UnorderedList>
 

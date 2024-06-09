@@ -22,20 +22,29 @@ const Works = () => (
     <Container>
 
       <Heading as="h3" fontSize={20} mb={4}>
-        Skill Stack
+        Career Stack
       </Heading>
       <Section delay={0.2}>
         <Badge colorScheme="blue" fontSize={15} mr={2}>
-          데이터 분석
-        </Badge>
-        <Badge colorScheme="blue" fontSize={15} mr={2}>
-          DB 튜닝
+          통계학
         </Badge>
         <Badge colorScheme="blue" fontSize={15} mr={2}>
           웹 백엔드
         </Badge>
         <Badge colorScheme="blue" fontSize={15} mr={2}>
-          기획
+          클라우드
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          인공지능
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          DB 튜닝
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          사업
+        </Badge>
+        <Badge colorScheme="blue" fontSize={15} mr={2}>
+          프로덕트 기획
         </Badge>
       </Section>
 
@@ -50,7 +59,7 @@ const Works = () => (
         <UnorderedList>
 
           <Badge colorScheme="telegram" fontSize={18} mr={2}>
-            백엔드
+            데이터 엔지니어
           </Badge>
           <br/>
           <span><b>대표 프로젝트</b> : 삼성DS 하이브리드 클라우드 | 서울대학교 청소년 가상학교 | 비인지진단 케어프로그램</span>
@@ -74,7 +83,7 @@ const Works = () => (
           <br/>
 
           <Badge colorScheme="telegram" fontSize={18} mr={2}>
-            데이터
+            기획자
           </Badge>
           <br/>
           <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성전자 스마트교차로/클라우드 자원과 비용</span>
