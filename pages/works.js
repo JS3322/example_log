@@ -62,23 +62,22 @@ const Works = () => (
             데이터 엔지니어
           </Badge>
           <br/>
-          <span><b>대표 프로젝트</b> : 삼성DS 하이브리드 클라우드 | 서울대학교 청소년 가상학교 | 비인지진단 케어프로그램</span>
+          <span><b>대표 프로젝트</b> : 삼성DS 하이브리드 클라우드 | 서울대학교 청소년 가상학교 | 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성 클라우드 자원과 비용 관리 시스템</span>
           <br/>
-          <span>- 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용 (used Django, Spring boot, GCP 하이브리드, Kafka Streams)</span>
           <br/>
-          <span>- 정신건강 케어프로그램 컨텐츠 기획과 구현 (used Spring)</span>
+          <span>- 서울대학교 수집 데이터 기반 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용</span>
           <br/>
-          <span>- 통계결과 리포트 디자인 및 pdf 대량 자동인쇄 시스템 개발 (used Spring, JSP)</span>
+          <span>- 청소년 가상학교 접속 트래픽 자동 관리 시스템 구축 및 쿠버네티스 트레이싱 모듈 개발</span>
           <br/>
-          <span>- 컨텐츠 3D모델링 외 영업 홍보페이지 다수 작성 (used React.js, Three.js, Unity)</span>
+          <span>- 삼성DS 내부 통합 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝</span>
           <br/>
-          <span>- 트래픽 bastion서버 로드밸런싱, 스케일아웃 시스템 구성 및 쿠버네티스 트레이싱 모듈 개발 (used AWS, GKE, OCI, Go)</span>
+          <span>- 삼성 내 사용하는 Public/Private 클라우드 자원/비용 데이터 통계 시스템 구축 및 Kubernetes 시스템 관리</span>
           <br/>
-          <span>- 영상출력 모듈 레이턴시 동기화 관리 API 개발 (used Spring)</span>
+          <span>- 연세 세브란스병원 정신건강의학 실시간 가중치 연산 알고리즘과 통계출력 sql튜닝 및 머신러닝 기반 비인지진단 카테고리화 모듈 개발</span>
           <br/>
-          <span>- MongoDB/SpringBatch 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝</span>
+          <span>- 나라장터 입찰정보 크롤링 및 데이터 자동 전처리 시스템과 비드봇 알고리즘 튜닝</span>
           <br/>
-          <span>- 삼성전자 내 사용하는 Public/Private 클라우드 자원/비용 데이터 통계 시스템 구축 및 Kubernetes 시스템 관리와 Open API 기획/개발</span>
+          <span>- 현대자동차 보고서용 통계데이터 시각화 모듈 개발</span>
           <br/>
           <br/>
 
@@ -86,20 +85,18 @@ const Works = () => (
             기획자
           </Badge>
           <br/>
-          <span><b>대표 프로젝트</b> : 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성전자 스마트교차로/클라우드 자원과 비용</span>
+          <span><b>대표 프로젝트</b> : 삼성전자 스마트교차로 | 딥러닝 기반 타이어 모델 구현 | 로그 분석 기반 은행 금융모델</span>
           <br/>
-          <span>- 연세세브란스병원의 정신건강의학 실시간 가중치 연산 알고리즘과 통계출력 sql튜닝 및 머신러닝 기반 비인지진단 카테고리화 모듈 개발 (used PyTorch, Logstash)</span>
           <br/>
-          <span>- 입찰정보 크롤링 및 데이터 자동 전처리 시스템과 비드봇 알고리즘 튜닝 (used selenium, MSSQL)</span>
-          <br/>
-          <span>- 보고서용 통계데이터 시각화 모듈 개발 (used Dash, React.js, flask)</span>
-          <br/>
-          <span>- 고덕 삼성전자 인공지능 스마트교차로 구축 및 관련 특허 출원 (도로기반 스테레오 비전 객체 탐지 기술)</span>
-          <br/>
-          <span>- 삼성그룹 클라우드 자원/비용 정보 정제/통계 시스템 구축 및 관리</span>
+          <span>- 고덕 삼성전자 인공지능 스마트교차로 구축 및 관련 도로기반 스테레오 비전 객체 탐지 기술 관련 특허 외 다수 출원</span>
           <br/>
           <span>- 비공기압 타이어 인공지능 디자인 연구개발계획서, 서울대학교 모바일 가상학교 보고서, 조달청 우수제품 관련 특허 외 다수 인공지능관련 문서 작성 및 PM 업무 진행</span>
           <br/>
+          <span>- 연세 세브란스병원 정신건강 케어프로그램 컨텐츠 기획과 구현</span>
+          <br/>
+          <span>- 카카오 소셜 로그 분석기반으로 은행 금융모델 기획 및 구현</span>
+          <br/>
+
 
         </UnorderedList>
       </Section>
@@ -112,7 +109,7 @@ const Works = () => (
         <Heading as="h3" fontSize={20} mb={4}>
           Project History
         </Heading>
-        
+
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
