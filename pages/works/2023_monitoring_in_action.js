@@ -69,14 +69,6 @@ const Work = () => (
           개발용도 데이터 통계 모델링 구축. Log데이터 기반으로 Docker-Swarm 및 DB서버 샤딩 로드밸런싱 구축.
         </ListItem>
 
-        <ListItem>
-          삼성DS 하이브리드 클라우드 데이터 아키텍처 구성 및 과제문서 작성. Prometheus 기반 Log데이터로 Kubernetes의 Rancher 관리 시스템 개발.
-        </ListItem>
-
-        <ListItem>
-          MongoDB 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝
-        </ListItem>
-
       </UnorderedList>
       
       <WorkImage src="/images/works/2023_monitoring_in_action_diagram_20230131.png" alt="2023_monitoring_in_action_diagram" />

@@ -56,7 +56,31 @@ const Work = () => (
       </Box>
 
       <Heading as="h3" fontSize={16} my={6}>
-        <Center>주요 업무</Center>
+        주요 문제 해결 목록
+      </Heading>
+
+      <UnorderedList my={4}>
+
+        <ListItem>
+          gis 전처리 3차원 좌표 통일화 및 데이터 차원축소로 공유
+        </ListItem>
+
+        <ListItem>
+          영상 이미지 분석 3차원 좌표정보를 실시간 그룹네트워크로 공유
+        </ListItem>
+
+        <ListItem>
+          누락 데이터 복구를 위한 방안 제시 및 방어코드 구현(예외처리) 및 관리
+        </ListItem>
+
+        <ListItem>
+          레이턴시 최소화를 위한 포트 공유
+        </ListItem>
+
+      </UnorderedList>
+
+      <Heading as="h3" fontSize={16} my={6}>
+        주요 업무
       </Heading>
 
       <UnorderedList my={4}>

@@ -26,7 +26,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-          클라우드 7만개 리소스 데이터 수집/정제/통계와 100억 비용정보 관리하는 시스템
+          클라우드 7만개 리소스 데이터 수집/정제/통계와 200억 비용정보 관리하는 시스템
         </ListItem>
       </UnorderedList>
 
@@ -53,7 +53,28 @@ const Work = () => (
       </Box>
 
       <Heading as="h3" fontSize={16} my={6}>
-        <Center>주요 업무</Center>
+        주요 문제 해결 목록
+      </Heading>
+
+      <UnorderedList my={4}>
+
+        <ListItem>
+          mongoDB 데이터 튜닝 검증의 정확성/효율성 이슈에 대해 aggregation 파이프라인 결과 쿼리문 비교 시스템 구축
+        </ListItem>
+        <ListItem>
+          json 대량 데이터 비교 검증을 위해 hash 비교 시스템 구축
+        </ListItem>
+        <ListItem>
+          MongoDB 데이터 백업/롤백 용이성을 위해 NAS 스토리지 교환 시스템 구축
+        </ListItem>
+        <ListItem>
+          개발한 솔루션 접속 로그를 분석/관리를 용이하도록 Spring Gateway에 접속기록(id/호출API 외..) 관리 시스템 구축
+        </ListItem>
+
+      </UnorderedList>
+
+      <Heading as="h3" fontSize={16} my={6}>
+        주요 업무
       </Heading>
 
       <UnorderedList my={4}>

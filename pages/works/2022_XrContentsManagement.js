@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="2022 XR Contents Management">
     <Container>
       <Title>
-        영상 동기화 컨텐츠 관리 <Badge>2022</Badge>
+        영화 영상 동기화 제어 웹 시스템<Badge>2022</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>
@@ -56,7 +56,7 @@ const Work = () => (
       </Box>
 
       <Heading as="h3" fontSize={16} my={6}>
-        <Center>주요 업무</Center>
+        주요 업무
       </Heading>
 
       <UnorderedList my={4}>
