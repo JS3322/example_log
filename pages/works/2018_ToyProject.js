@@ -54,7 +54,7 @@ const Work = () => (
       </Box>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>주요 업무</Center>
+        주요 업무
       </Heading>
 
       <UnorderedList my={4}>

@@ -59,16 +59,16 @@ const Work = () => (
       <UnorderedList my={4}>
 
         <ListItem>
-          mongoDB 데이터 튜닝 검증의 정확성/효율성 이슈에 대해 aggregation 파이프라인 결과 쿼리문 비교 시스템 구축
+          mongoDB 데이터 튜닝 검증의 정확성/효율성 이슈에 대해 aggregation 파이프라인 결과 쿼리문 비교 시스템 구축 :: json 스키마 비교 후 특정 키 값의 유사도 측정 활용(cosine similarity)
         </ListItem>
         <ListItem>
-          enterprise MongoDB 성능에 맞춰 스키마 재설계 init 쿼리 작성 및 spring batch MongoTemplate 쿼리 탄력적 적용 시스템 구축 및 json 대량 데이터 비교 검증을 위해 hash 비교 시스템 구축
+          enterprise MongoDB 성능에 맞춰 스키마 재설계 init 쿼리 작성 및 spring batch MongoTemplate 쿼리 탄력적 적용 시스템 구축 :: 메모리 사용량에 따라 데이터 가공 시 lookup과 reference(일반참조)를 string batch에서 유연하게 동작할 수 있도록 시스템 구성
         </ListItem>
         <ListItem>
-          MongoDB 데이터 백업/롤백 용이성을 위해 NAS 스토리지 교환 시스템 구축
+          MongoDB 데이터 백업/롤백 용이성을 위해 NAS 스토리지 마운트 교환 시스템 구축 :: log 파일 모니터링하고 알람 후 자동적으로 최신 백업 데이터를 복구 스크립트 실행
         </ListItem>
         <ListItem>
-          개발한 솔루션 접속 로그를 분석/관리를 용이하도록 Spring Gateway에 접속기록(id/호출API 외..) 관리 시스템 구축
+          개발한 솔루션 접속 로그를 분석/관리를 용이하도록 Spring Gateway에 접속기록(id/호출API 외..) 관리 시스템 구축 :: 애플리케이션에서 구축한 exception 코드를 DB에서 관리하고 log 정보 토대로 사용자의 접속 추적 및 DB 코드로 사용 패턴 확인 시스템 구성
         </ListItem>
 
       </UnorderedList>
