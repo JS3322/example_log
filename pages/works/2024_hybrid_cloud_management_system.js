@@ -62,7 +62,7 @@ const Work = () => (
           mongoDB 데이터 튜닝 검증의 정확성/효율성 이슈에 대해 aggregation 파이프라인 결과 쿼리문 비교 시스템 구축
         </ListItem>
         <ListItem>
-          json 대량 데이터 비교 검증을 위해 hash 비교 시스템 구축
+          enterprise MongoDB 성능에 맞춰 스키마 재설계 init 쿼리 작성 및 spring batch MongoTemplate 쿼리 탄력적 적용 시스템 구축 및 json 대량 데이터 비교 검증을 위해 hash 비교 시스템 구축
         </ListItem>
         <ListItem>
           MongoDB 데이터 백업/롤백 용이성을 위해 NAS 스토리지 교환 시스템 구축
@@ -87,6 +87,9 @@ const Work = () => (
         </ListItem>
         <ListItem>
           MongoDB/SpringBatch 기반 데이터 레이크/ 데이터 마트/ 통계 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝
+        </ListItem>
+        <ListItem>
+          AWS TrustedAdvisor 외 데이터를 활용한 public/private Cloud의 리소스 활용 개선 시스템 개선 및 구현
         </ListItem>
 
       </UnorderedList>

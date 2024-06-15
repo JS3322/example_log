@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="2023 Monitoring in action">
     <Container>
       <Title>
-      모니터링 데이터기반 하이브리드 클라우드 관리 시스템 <Badge>2023</Badge>
+      모니터링 데이터기반 클라우드 관리 시스템 <Badge>2023</Badge>
       </Title>
 
       <Heading as="h4" fontSize={16} my={6}>
@@ -56,7 +56,19 @@ const Work = () => (
       </Box>
 
       <Heading as="h3" fontSize={16} my={6}>
-        <Center>주요 업무</Center>
+        주요 문제 해결 목록
+      </Heading>
+
+      <UnorderedList my={4}>
+
+        <ListItem>
+          쿠버네티스 프로메테우스 누적 데이터를 분석하여 pod 성능 패턴 분석을 통해 사내 IT 시스템 사용 보고서의 근거 데이터 활용
+        </ListItem>
+
+      </UnorderedList>
+
+      <Heading as="h3" fontSize={16} my={6}>
+        주요 업무
       </Heading>
 
       <UnorderedList my={4}>
