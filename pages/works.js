@@ -14,6 +14,7 @@ import thumb2023Monitorin from '../public/images/works/2023_monitoring_in_action
 import thumb2022Xr from '../public/images/works/2021_XrContentsManagement_contents_0001.png'
 import thumb2023Stereo from '../public/images/works/2023_Stereo_vision_with_ITS_System_GS.png'
 import thumb2024HCMS from '../public/images/works/2024_hybrid_cloud_management_system_thumb.png'
+import thumb2024AISS from '../public/images/works/2024_artificial_intelligence_semiconductor_simulation_thumb.png'
 
 import React from "react";
 
@@ -62,7 +63,7 @@ const Works = () => (
             데이터 엔지니어
           </Badge>
           <br/>
-          <span><b>대표 프로젝트</b> : 삼성DS 하이브리드 클라우드 | 서울대학교 청소년 가상학교 | 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성 클라우드 자원과 비용 관리 시스템</span>
+          <span><b>대표 프로젝트</b> : 삼성DS 하이브리드 클라우드 | 서울대학교 청소년 가상학교 | 현대자동차 신입사원 웹 진단 시스템 | 인공지능 비드봇 | 삼성DS 반도체 인공지능 시뮬레이션</span>
           <br/>
           <br/>
           <span>- 서울대학교 수집 데이터 기반 의료, VR, 모바일 데이터 통합관리 클라우드 인프라 구축 및 운용</span>
@@ -72,6 +73,8 @@ const Works = () => (
           <span>- 삼성DS 내부 통합 데이터 컬렉션 스키마 및 인덱스 구성 및 수집, 정제, 연산 배치 전략 구성 및 튜닝</span>
           <br/>
           <span>- 삼성 내 사용하는 Public/Private 클라우드 자원/비용 데이터 통계 시스템 구축 및 Kubernetes 시스템 관리</span>
+          <br/>
+          <span>- 삼성DS HPC 기반 반도체 공정 인공지능 시뮬레이션 설계 및 구축</span>
           <br/>
           <span>- 연세 세브란스병원 정신건강의학 실시간 가중치 연산 알고리즘과 통계출력 sql튜닝 및 머신러닝 기반 비인지진단 카테고리화 모듈 개발</span>
           <br/>
@@ -113,6 +116,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 3, 3]} gap={6}>
+
+        <Section delay={0.4}>
+          <WorkGridItem id="2024_artificial_intelligence_semiconductor_simulation" thumbnail={thumb2024AISS} title="인공지능 반도체 시뮬레이션">
+            반도체 공정 인공지능 시뮬레이션 개발
+          </WorkGridItem>
+        </Section>
 
         <Section delay={0.4}>
           <WorkGridItem id="2024_hybrid_cloud_management_system" thumbnail={thumb2024HCMS} title="Hybrid Cloud 관리 시스템">
