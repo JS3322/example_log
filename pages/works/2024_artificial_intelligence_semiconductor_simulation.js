@@ -79,6 +79,9 @@ const Work = () => (
           fast api 기반 반도체 deck 분석 및 HPC 연산 상태정보 조회 서비스 구축
         </ListItem>
         <ListItem>
+          반도체 공정 메타데이터 기반 웨이퍼 불량률 검증 및 반도체 공정 불확실성 검증 모델 개발
+        </ListItem>
+        <ListItem>
           airflow 및 greenplum 기반 queue 서버 구성 후 mlops기능 다중 노드 서버 분산작업 개발
         </ListItem>
         <ListItem>
