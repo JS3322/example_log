@@ -14,7 +14,7 @@ import Layout from '../../components/layouts/article'
 import { Title, Meta } from '../../components/work'
 
 const Work = () => (
-  <Layout title="2024 Hybrid Cloud Management System">
+  <Layout title="2024 artificial intelligence semiconductor simulation">
     <Container>
       <Title>
         인공지능 반도체 공정 시뮬레이션 <Badge>2024</Badge>
@@ -33,7 +33,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Badge mr={2}>Stack</Badge>
-          <span>python3.* | fast API | airflow </span>
+          <span>python3.9 | fast API | airflow | ray </span>
         </ListItem>
         <ListItem>
           <Meta>ENV</Meta>
@@ -62,7 +62,7 @@ const Work = () => (
           deck 데이터 생성(DOE) 관리 및 생성 벡터 연산 개발
         </ListItem>
         <ListItem>
-          반도체 공정 optimize 후처리 파인튜닝 알고리즘 개발
+          반도체 공정 중 optimize 후처리 파인튜닝 알고리즘 개발
         </ListItem>
         <ListItem>
           HPC 활용 MLOps 자원 효율 관리 방안 구축
@@ -85,7 +85,7 @@ const Work = () => (
           airflow 및 greenplum 기반 queue 서버 구성 후 mlops기능 다중 노드 서버 분산작업 개발
         </ListItem>
         <ListItem>
-          wfmap deck 데이터 기반으로 학습에 필요한 데이터 생성(DOE) 시스템 설계
+          wfmap deck 데이터 기반으로 학습에 필요한 데이터 생성(DOE) 시스템 설계 및 인공지능 시뮬레이션에 사용되는 각종 변수 데이터를 작은 데이터 타입으로 변환하여 simd 연산처리로 처리량 증가
         </ListItem>
         <ListItem>
           tensorflow 기반 반도체 공정 예측 인공지능 모델 프로토타입 개발 (전처리, 스케일링, 학습, 테스트, 추론, 최적화 단위별 모듈)
