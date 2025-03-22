@@ -87,11 +87,11 @@ const Home = () => (
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-              교통영상 분석 인공지능 GIS 시스템 :: 프리랜서
+              교통영상 분석 인공지능 GIS 클라우드 관리 시스템 :: 프리랜서
           </BioSection>
           <BioSection>
               <BioYear>2024</BioYear>
-              클라우드 통합관리 시스템 :: 프리랜서
+              인공지능 반도체 시뮬레이션 솔루션 :: 프리랜서
           </BioSection>
       </Section>
 

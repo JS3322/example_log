@@ -112,3 +112,5 @@ _temp/
 _backup/
 *.glb
 .env
+
+.vscode/
